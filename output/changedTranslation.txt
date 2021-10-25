@@ -1,0 +1,876 @@
+/*
+  Localizable.strings
+  FerreroMaintenance
+
+  Created by Christian Marone on 16/07/2020.
+  Copyright © 2020 Christian. All rights reserved.
+*/
+
+//MARK: - Temporary
+"user_second_field" = "Brak zlecenia pracy";
+
+//MARK: - General
+
+"not_available" = "Niedostępny";
+"select_all_button" = "Zaznacz wszystko";
+"deselect_all_button" = "Odwołaj wybory";
+"required_information" = "* Wymagane pole";
+"filters_button" = "Filtry";
+"back_button" = "Powrót";
+"cancel_button" = "Anuluj";
+"done_button" = "Koniec";
+"offline_connectivity" = "Offline";
+"attention_title" = "Uwaga";
+"connection_unavailable" = "Połączenie niedostępne";
+"no_element" = "Brak dostępnych pozycji";
+"attachments_upload_success" = "Załączniki zostały pomyślnie przesłane!";
+"software_version" = "Wersja %@";
+"json_decode_failure" = "Failed to decode JSON!";
+
+//MARK: - Ferrero Error
+
+"barcode_scanner_error" = "Nie można uzyskać wyniku skanowania";
+"barcode_scanner_camera_error" = "Brak dostępu do kamery";
+"barcode_scanner_flash_error" = "Brak dostępu do pamięci flash";
+"user_info_loading_failure" = "Informacje nie zostały poprawnie przesłane";
+"unavailable_data_service" = "Wystąpił błąd";
+"offline_odata_store_error" = "Błąd podczas tworzenia zapasu offline";
+"camera_access_denied" = "Brak dostępu do aparatu, aby włączyć tę funkcję, przejdź do ustawień.";
+"attachments_presentation_failure" = "Wystąpił błąd podczas ładowania załącznika.";
+"push_notification_permission_denied" = "Informacje pulpitu są wyłączone dla tej aplikacji, przejdź do ustawień żeby zmienić ustawienia.";
+"offline_store_synch_running" = "Synchronizacja danych w toku, spróbuj ponownie";
+"item_not_found" = "Błąd podczas ładowania informacji.";
+"old_notification" = "Czynność już wykonana przez innego użytkownika";
+"notification_parsing_failure" = "Nie można pobrać informacji dla tej prośby, sprawdź listę roboczą, aby ją wyświetlić.";
+"feature_not_available_offline_error" = "Ta funkcja nie jest dostępna w trybie offline";
+"max_item_reached" = "Możesz wybrać do 5 pozycji!";
+"material_number_not_found" = "Nie znaleziono numeru materiału";
+"invalid_document_link_error" = "Link do dokumentu jest nieprawidłowy";
+"already_assigned" = "Zlecenie już przyjęte przez użytkownika";
+"already_assigned_to" = "Request already taken on by a user %@";
+"user_logout_failed" = "Błąd podczas wylogowania, spróbuj ponownie!";
+"logout_offline_error" = "Jesteś offline, przeloguj się";
+"notification_assigned_status_closed" = "Brak możliwości dokończenia operacji, zgłoszenie odpowiadające zleceniu nie jest przypisane lub rodzaj zlecenia nie przewiduje podsumowania technicznego";
+"action_not_possible_due_to_wrong_status" = "Nie można ukończyć operacji, zgłoszenie ma nieprawidłowy status";
+"no_work_order_assigned" = "Nie można ukończyć operacji, nie masz przypisanego zlecenia pracy";
+"synching_spare_parts_reservation" = "Trwa synchronizacja części zamiennych, poczekaj na rezerwację";
+"synching_spare_parts_general" = "Trwa synchronizacja części zamiennych, poczekaj aż się zakończy";
+"mobile_equipment" = "W przypadku tego typu urządzeń konieczne jest kontynuowanie operacji w SAP";
+"attachments_upload_unavailable" = "Nie można wczytać załączników, brak połączenia";
+"attachments_upload_failed" = "Ładowanie załączników nie powiodło się z następującymi błędami: %@";
+"attachments_size_exceeded" = "Załącznik przekracza maksymalny rozmiar 10 MB";
+"unavailable_attachment_size" = "Nie można zweryfikować rozmiaru załączników, spróbuj ponownie.";
+"offline_sync_error" = "Błąd synchronizacji z systemem źródłowym obiektu %@:\n %@\nsprawdź obiekty utworzone w trybie offline.";
+"complete_flow" = "Zakończ bieżącą operację";
+"attachments_conversion_data_failed" = "Nie można odczytać zawartości pliku";
+"attachments_temp_folder_write_failed" = "Błąd podczas pobierania pliku";
+"attachments_compression_failed" = "Kompresja załącznika nie powiodła się, spróbuj ponownie";
+"connection_error_notification_creation" = "Z powodu problemów z połączeniem obiekt mógł nie zostać utworzony. Sprawdź listę aktywności, w przeciwnym razie spróbuj ponownie.";
+
+// MARK: - Validation Error
+
+"invalid_regex" = "Nie można zweryfikować zgodności sprawdzenia";
+"required_error" = "Wymagana wartość";
+"missing_content" = "Wprowadzona wartość nie zawiera %@";
+"missing_prefix" = "Wprowadzona wartość nie zawiera początku %@";
+"missing_suffix" = "Wprowadzona wartość nie zawiera zakończenia %@";
+"only_numbers_error" = "Wprowadzona wartość musi zawierać tylko liczby";
+"not_zero_error" = "Wprowadzona powinna być większa niż 0";
+"max_characters_error" = "Możesz wprowadzać tylko znaki %@";
+"has_emoji_error" = "Wprowadzona wartość zawiera nieprawidłowe znaki";
+"not_after_now" = "Nieprawidłowa data";
+"not_before_now" = "Incorrect date";
+"data_synchronization_message" = "Synchronizuj dane";
+
+// MARK: - Onboarding
+
+"retry_limit_reached_title" = "Osiągnąłeś limit prób.";
+"retry_limit_reached_message" = "Osiągnąłeś maksymalną liczbę prób. Aplikacja wymaga zresetowania.";
+"retry_button_title" = "Spróbuj ponownie";
+"reset_button_title" = "Reset";
+"login_failed_title" = "Logowanie nie powiodło się.";
+
+//MARK: - Alert Controller
+
+"error_title" = "Attention";
+"error_ok_button" = "OK";
+"alert_controller_authorizations_go_to_settings" = "Brak dostępu do tej funkcji. Aby to zmienić, przejdź do ustawień.";
+"alert_controller_go_to_settings_button" = "Przejdź do ustawień";
+
+//MARK: - Loading indicator
+
+"loading_message" = "Trwa przesyłanie załączników";
+
+//MARK: - Home Page
+
+"home_page_title" = "Strona główna";
+"home_page_action_report_a_failure" = "Zarządzanie zgłoszeniami";
+"home_page_action_manage_MCTE" = "Konserwacja";
+"home_page_action_documentation" = "Dokumentacja i dane podstawowe";
+
+//MARK: - Report a failure
+
+"report_a_failure_page_title" = "Notification Management";
+"report_a_failure_create_notification" = "Utwórz zgłoszenie";
+"report_a_failure_confirm_restart" = "Potwierdzenie startu";
+"report_a_failure_notification_list" = "Lista zgłoszeń";
+
+//MARK: - Equipment Details
+
+"equipment_details_page_title" = "Szczegóły urządzenia";
+"equipment_details_title_equipment" = "Urządzenie*";
+"equipment_details_title_func_location" = "Lokalizacja funkcjonalna";
+"equipment_details_title_inventory_number" = "Numer inwentarzowy";
+"equipment_details_confirm_button_title" = "Potwierdź";
+
+//MARK: - Notification Details
+
+"notification_details_page_title" = "Zgłoszenie zapisane";
+"notification_details_title_notification_ID" = "Zgłoszenie";
+"notification_details_title_work_order_ID" = "Zlecenie pracy";
+"notification_details_title_equipment" = "Equipment";
+"notification_details_title_func_location" = "Functional Location";
+"notification_details_title_inventory_number" = "Inventory number";
+"notification_details_title_short_text" = "Opis zgłoszenia";
+"notification_details_close_button_title" = "Zamknij";
+"notification_details_toast_message" = "Utworzono nowe zgłoszenie";
+"notification_details_toast_message_offline" = "Dane zapisywane lokalnie";
+"notification_details_work_order_toast_message" = "Utworzono nowe powiadomienie i nowe zlecenie pracy";
+
+// MARK: - Create Notification
+
+"create_notification_page_title" = "Tworzenie zgłoszenia";
+"create_notification_required_information" = "* Required field";
+"create_notification_equipment_title" = "Equipment";
+"create_notification_type_title_mandatory" = "Rodzaj*";
+"create_notification_type_title" = "Typ";
+"create_notification_coding_title_mandatory" = "Kodowanie*";
+"create_notification_coding_title" = "Kodowanie";
+"create_notification_malfunction_start_date_mandatory" = "Rozpoczęcie zadania *";
+"create_notification_malfunction_start_date" = "Rozpoczęcie zadania";
+"create_notification_breakdown_title" = "Awaria";
+"create_notification_reported_by_title_mandatory" = "Zgłaszający *";
+"create_notification_reported_by_title" = "Zgłaszający";
+"create_notification_short_text_placeholder_mandatory" = "Notification description*";
+"create_notification_short_text_placeholder" = "Notification description";
+"create_notification_effect_title_mandatory" = "Skutek*";
+"create_notification_effect_title" = "Skutek";
+"create_notification_main_work_center_title_mandatory" = "Grupa robocza *";
+"create_notification_main_work_center_title" = "Grupa robocza";
+"create_notification_priority_title_mandatory" = "Priorytet*";
+"create_notification_priority_title" = "Priorytet";
+"create_notification_maintenance_activity_type_title_mandatory" = "Rodzaj pracy*";
+"create_notification_maintenance_activity_type_title" = "Typ pracy";
+"create_notification_long_text_placeholder_mandatory" = "Dodatkowe uwagi*";
+"create_notification_long_text_placeholder" = "Dodatkowe uwagi";
+"create_notification_footer_button_title" = "Zapisz";
+"create_notification_attachments_take_photo_action" = "Zrób zdjęcie";
+"create_notification_attachments_take_video_action" = "Zrób film";
+"create_notification_attachments_import_photo_action" = "Biblioteka zdjęć";
+"create_notification_attachments_import_file_action" = "Plik";
+"create_notification_attachments_title" = "Załączniki";
+
+// MARK: - Coding View Cell
+
+"coding_table_view_cell_coding_title_mandatory" = "Coding*";
+"coding_table_view_cell_coding_title" = "Coding";
+"coding_table_view_cell_code_group_title" = "Grupa kodów";
+"coding_table_view_cell_code_title" = "Kod";
+
+// MARK: - Picker Alert
+
+"picker_alert_menu_title" = "Wybierz typ zlecenia pracy";
+
+// MARK: - Create Notification Alert Controller
+
+"create_notification_alert_controller_title" = "Chcesz stworzyć zlecenie pracy?";
+"create_notification_alert_controller_left_button" = "Nie";
+"create_notification_alert_controller_right_button" = "TAK";
+
+//MARK: - Select Equipment
+
+"select_equipment_page_title" = "Tworzenie zgłoszenia - Urządzenie";
+"select_equipment_table_section_header" = "Znalezione urządzenia:";
+"select_equipment_search_bar_placeholder" = "Wyszukiwanie urządzenia";
+"select_equipment_table_filter_button" = "Filters";
+"select_equipment_table_scan_button" = "kod kreskowy";
+"select_equipment_title_filter_cost_center" = "Szukaj według: Centrum kosztów";
+"select_equipment_title_filter_functional_location" = "Szukaj według: Lokalizacja funkcjonalna";
+"filter_feedback_title" = "Szukaj:";
+
+//MARK: - Filter Equipment
+
+"filter_equipment_view_title" = "Search Equipment";
+"filter_equipment_filter_form_keyname" = "Search for:";
+"filter_equipment_first_filter_value" = "Centrum kosztowe";
+"filter_equipment_second_filter_value" = "Functional Location";
+"filter_equipment_reset_cell_text" = "Reset danych";
+"filter_equipment_search_filter_cost_center_title" = "Search Equipment";
+"filter_equipment_search_filter_functional_location_title" = "Search Equipment";
+"filter_equipment_footer_button_title" = "Confirm";
+
+//MARK: - Barcode Scan
+
+"barcode_scan_page_title" = "Barcode";
+"barcode_scan_close_button" = "Close";
+
+//MARK: - Search Filter
+
+"search_filter_search_placeholder" = "Wybierz";
+"search_filter_search_page_title_cost_center" = "Wybierz centrum kosztowe";
+"search_filter_search_cost_center_count" = "Znajdź centrum kosztowe: %@";
+"search_filter_search_cost_center_placeholder" = "Wyszukiwanie centrum kosztów";
+"search_filter_search_page_title_functional_location" = "Wybierz lokalizację funkcjonalną";
+"search_filter_search_functional_location_count" = "Znaleziono lokalizację funkcjonalną: %@";
+"search_filter_search_functional_location_placeholder" = "Wyszukiwanie lokalizacji funkcjonalnej";
+"search_filter_search_page_title_notification_type" = "Wybierz typ zgłoszenia";
+"search_filter_search_notification_type_count" = "Znaleziono typ zgłoszenia: %@";
+"search_filter_search_notification_type_placeholder" = "Wyszukaj typ zgłoszenia";
+"search_filter_search_page_title_effect" = "Wynik wyszukiwania";
+"search_filter_search_effect_count" = "Możliwe skutki: %@";
+"search_filter_search_effect_placeholder" = "Wyszukiwanie efektów";
+"search_filter_search_page_title_work_center" = "Wybierz grupę roboczą";
+"search_filter_search_work_center_count" = "Liczba znalezionych grup roboczych: %@";
+"search_filter_search_work_center_placeholder" = "Wyszukiwanie w grupie roboczej";
+"search_filter_search_page_title_coding" = "Wybierz kod";
+"search_filter_search_coding_count" = "Znaleziono kod: %@";
+"search_filter_search_coding_placeholder" = "Search coding";
+"search_filter_search_page_title_maintenance_activity_type" = "Wybierz typ aktywności";
+"search_filter_search_main_act_type_count" = "Znaleziono rodzaj pracy technicznej: %@";
+"search_filter_search_maintenance_activity_type_placeholder" = "Search activity type";
+"search_filter_search_page_title_equipment" = "Wybierz urządzenie";
+"search_filter_search_equipment_count" = "Urządzenie (%@)";
+"search_filter_search_page_title_PMActType" = "Search activity type";
+"search_filter_search_PMActType_count" = "Typ pracy (%@)";
+"search_filter_search_PMActType_placeholder" = "Search activity type";
+"search_filter_search_page_title_craftsman" = "Wyszukaj technika";
+"search_filter_search_craftsman_count" = "Technik (%@)";
+"search_filter_search_craftsman_placeholder" = "Search Craftsman";
+"search_filter_search_page_title_spare_part" = "Wybierz część zamienną";
+"search_filter_search_spare_part_placeholder" = "Search spare parts";
+"search_filter_search_spare_part_count" = "Części zamienne (%@)";
+"search_filter_search_page_title_work_order" = "Wybierz zlecenie pracy";
+"search_filter_search_work_order_placeholder" = "Search Work Order";
+"search_filter_search_work_order_count" = "Zlecenie pracy (%@)";
+"search_filter_search_page_title_workorder_type" = "Wybierz typ zlecenia pracy";
+"search_filter_search_workorder_type_count" = "Znaleziono typ zlecenia pracy: %@";
+"search_filter_search_workorder_type_placeholder" = "Search WO type";
+"search_filter_search_page_title_org_struct" = "Wybierz użytkownika";
+"search_filter_search_org_struct_count" = "Dostępni użytkownicy: %@";
+"search_filter_search_org_struct_placeholder" = "Wyszukiwanie użytkowników";
+"search_filter_search_page_title_code_group" = "Wybierz grupę planowania";
+"search_filter_search_code_group_count" = "Znaleziono grupę kodów: %@";
+"search_filter_search_code_group_placeholder" = "Wyszukiwanie grupy kodów";
+"search_filter_search_page_title_code" = "Wybierz kod";
+"search_filter_search_code_count" = "Znaleziono kod: %@";
+"search_filter_search_code_placeholder" = "Wyszukiwanie kodu";
+"search_filter_search_page_title_damage" = "Niepowodzenia wyszukiwania";
+"search_filter_search_damage_count" = "Znalezione tryby awarii: %@";
+"search_filter_search_damage_placeholder" = "Wyszukiwanie trybu awarii";
+"search_filter_search_page_title_cause" = "Wynbierz powód";
+"search_filter_search_cause_count" = "Znajdź przyczynę: %@";
+"search_filter_search_cause_placeholder" = "Wyszukiwanie przyczyn";
+"search_filter_search_page_title_maintainability" = "Szukaj w utrzymaniu ruchu";
+"search_filter_search_maintainability_count" = "Znaleziona konserwacja: %@";
+"search_filter_search_maintainability_placeholder" = "Wyszukiwanie w zakresie utrzymania";
+"search_filter_search_page_title_damage_group" = "Search Failure Mode";
+"search_filter_search_damage_group_count" = "Failure Modes found: %@";
+"search_filter_search_damage_group_placeholder" = "Failure mode search";
+"search_filter_search_page_title_cause_group" = "Search cause";
+"search_filter_search_cause_group_count" = "Causes found: %@";
+"search_filter_search_cause_group_placeholder" = "Search cause";
+"search_filter_search_page_title_activity_group" = "Wybierz aktywność";
+"search_filter_search_activity_group_count" = "Znalezione działania: %@";
+"search_filter_search_activity_group_placeholder" = "Wyszukiwanie aktywności";
+"search_filter_search_page_title_activity" = "Search activity";
+"search_filter_search_activity_count" = "Found activities %@";
+"search_filter_search_activity_placeholder" = "Activity search";
+"search_filter_search_page_title_delivery_place" = "Punkt dostawy";
+"search_filter_search_delivery_place_placeholder" = "Wyszukaj punkt dostawy";
+"search_filter_search_delivery_place_count" = "Znalezione punkty dostawy: %@";
+"search_filter_search_page_title_feedback" = "Wynik wyszukiwania";
+"search_filter_search_feedback_count" = "Znalezione rezultaty: %@";
+"search_filter_search_feedback_placeholder" = "Search result";
+
+//MARK: - Work Order Creation
+
+"work_order_creation_sap_notification" = "Zgłoszenie z SAP";
+"work_order_creation_sap_notification_detail_equipment_title" = "Equipment";
+"work_order_creation_sap_notification_detail_priority_title" = "Priority";
+"work_order_creation_sap_notification_detail_reported_by_title" = "Reported by";
+"work_order_creation_sap_notification_detail_header_title" = "Detale";
+"work_order_creation_new_notification" = "Nowe zgłoszenie";
+"work_order_creation_assigned_notification" = "Zgłoszenie przypisane";
+"work_order_creation_assigned_work_order" = "Szczegóły przypisanego zlecenia pracy";
+"work_order_creation_push_info_management_page_title" = "Zarządzanie informacjami pulpitu";
+"work_order_creation_push_info_management_button_title_new" = "Przypisz do mnie i utwórz zlecenie pracy";
+"work_order_creation_push_info_management_button_title_assigned" = "Tworzenie zlecenia pracy";
+"work_order_creation_page_title" = "Tworzenie zlecenia pracy - Dane ogólne";
+"work_order_creation_equipment" = "Equipment";
+"work_order_creation_equipment_mandatory" = "Equipment*";
+"work_order_creation_functional_location" = "Functional Location";
+"work_order_creation_functional_location_mandatory" = "Functional Location*";
+"work_order_creation_inventory_number" = "Inventory number";
+"work_order_creation_inventory_number_mandatory" = "Inventory number*";
+"work_order_creation_notification_type" = "Typ zgłoszenia";
+"work_order_creation_notification_type_mandatory" = "Typ zgłoszenia*";
+"work_order_creation_type" = "Typ zlecenia pracy";
+"work_order_creation_type_mandatory" = "Typ zlecenia pracy*";
+"work_order_creation_short_text_placeholder" = "Notification description";
+"work_order_creation_short_text_placeholder_mandatory" = "Notification description*";
+"work_order_creation_required_restart" = "Malfunction Start";
+"work_order_creation_required_restart_mandatory" = "Malfunction Start*";
+"work_order_creation_reportedby" = "Reported by";
+"work_order_creation_reportedby_mandatory" = "Reported by*";
+"work_order_creation_priority" = "Priority";
+"work_order_creation_priority_mandatory" = "Priority*";
+"work_order_creation_long_text_placeholder" = "Additional Notes";
+"work_order_creation_long_text_placeholder_mandatory" = "Additional Notes*";
+"work_order_creation_pmact_type" = "Activity Type";
+"work_order_creation_pmact_type_mandatory" = "Activity Type*";
+"work_order_creation_attachments" = "Dodaj zdjęcie";
+"work_order_creation_required_information" = "* Required field";
+"work_order_creation_footer_button_title" = "Save";
+
+// MARK: - Push Info Item
+
+"push_info_item_assigned_notification" = "Przypisano zgłoszenie";
+"push_info_item_new_notification" = "Nowe zgłoszenie";
+"push_info_item_assigned_work_order" = "Przypisane zlecenie pracy";
+"push_info_item_confirm_restart" = "Restart confirmation";
+"push_info_item_confirm_restart_body" = "Zgłoszenie zostało zrealizowane. Komunikat potwierdza wykonanie naprawy i zakończenie zgłoszenia";
+
+//MARK: - Change Equipment
+
+"change_equipment_page_title" = "Tworzenie zlecenia pracy - Zmiana urządzenia";
+"change_equipment_equipment" = "Stare urządzenie*";
+"change_equipment_new_equipment" = "Equipment";
+"change_equipment_placeholder_search" = "Search equipment";
+"change_equipment_required_information" = "* Required field";
+
+//MARK: - Change Notification Type
+
+"change_notification_type_page_title" = "Tworzenie zlecenia pracy — zmiana typu pracy";
+"change_notification_type_field_notification_type" = "Notification Type*";
+"change_notification_type_field_new_notification_type" = "Nowy typ zgłoszenia*";
+"change_notification_type_field_new_workorder_type" = "Nowy typ zlecenia pracy";
+"change_notification_type_placeholder_search" = "Search Notification type";
+"change_notification_type_required_information" = "* Required field";
+
+//MARK: - Work Order Details
+
+"work_order_details_page_title" = "Zlecenie pracy — zapisane";
+"work_order_details_work_order_id" = "Work Order";
+"work_order_details_equipment" = "Equipment";
+"work_order_details_functional_location" = "Functional Location";
+"work_order_details_inventory" = "Inventory number";
+"work_order_details_button_close" = "Homepage";
+"work_order_details_toast_message" = "Utworzono zlecenie pracy";
+"work_order_details_toast_message_offline" = "Data saved locally";
+
+//MARK: - Notification List
+
+"notification_list_page_title" = "Otwórz listę zgłoszeń";
+"notification_list_page_title_confirm_restart" = "Prośby do potwierdzenia";
+"notification_list_table_section_header" = "Otwórz zgłoszenia (%@)";
+"notification_list_table_filter_button" = "Wyszukiwanie zaawansowane";
+"notification_list_search_bar_placeholder" = "Wybierz zgłoszenia";
+"notification_list_notification_field" = "Notification";
+"notification_list_short_text_field" = "Short text";
+"notification_list_type_field" = "Notification Type";
+"notification_list_work_order_field" = "Work Order";
+"notification_list_equipment_field" = "Equipment";
+"notification_list_func_location_field" = "Functional Location";
+"notification_list_notification_type_filter_title" = "Rodzaj:";
+"notification_list_equipment_filter_title" = "Urządzenie:";
+"notification_list_status_filter_title" = "Status:";
+"notification_list_work_order_type_filter_title" = "Zlecenie pracy:";
+"notification_list_functional_location_filter_title" = "Lokalizacja funkcjonalna:";
+"notification_list_assigned_to_me_filter_title" = "Przypisany do mnie";
+"notification_list_search_for_label" = "Szukaj:";
+"notification_list_reported_by" = "Reported by";
+"notification_list_creation_date_hour" = "Creation Date";
+"notification_list_workcenter" = "Workcenter";
+"notification_list_toast_message_offline" = "Dane mogą nie być aktualizowane";
+
+//MARK: - Notification List Detail
+
+"notification_list_detail_page_title" = "Otwórz szczegóły zgłoszenia";
+
+//MARK: - Notification Cell
+
+"notification_cell_new_status" = "Nowy";
+"notification_cell_assigned_status" = "Przypisany";
+
+//MARK: - Filter Notification
+
+"filter_notification_right_button_title" = "End";
+"filter_notification_view_title" = "Lista zgłoszeń - Szukaj";
+"filter_notification_notification_type_filter_value" = "Notification Type";
+"filter_notification_equipment_filter_value" = "Equipment";
+"filter_notification_status_filter_value" = "Stan";
+"filter_notification_work_order_type_filter_value" = "WO Type";
+"filter_notification_functional_location_filter_value" = "Functional Location";
+"filter_notification_work_order_assigned_filter_value" = "Assigned to me";
+"filter_notification_selected_text" = "wybrany";
+
+// MARK: - Manage MTCE
+
+"manage_mtce_view_title" = "Strona główna - Utrzymanie ruchu";
+"manage_mtce_reservation" = "Rezerwacja";
+"manage_mtce_time_declaration" = "Nowe przypisanie";
+"manage_mtce_tech_summary" = "Podsumowanie techniczne";
+"manage_mtce_forward" = "Przekaż";
+"manage_mtce_document_list" = "Lista aktywności";
+
+//MARK: - Push Info Management RMT Alert Controller
+
+"push_info_management_rmt_alert_controller_title" = "Czy chcesz odrzucić zgłoszenie?";
+"push_info_management_rmt_alert_controller_left_button" = "No";
+"push_info_management_rmt_alert_controller_right_button" = "Yes";
+
+//MARK: - Push Info Work Order Management
+
+"push_info_work_order_management_assign_page_title" = "Zarządzanie zleceniami pracy";
+"push_info_work_order_management_assign_sap_notification" = "SAP Notification";
+"push_info_work_order_management_assign_work_order" = "Work Order";
+"push_info_work_order_management_footer_button_title" = "Confirm";
+"push_info_work_order_management_detail_equipment_title" = "Equipment";
+"push_info_work_order_management_detail_text_title" = "Short text";
+"push_info_work_order_management_detail_reported_by_title" = "Reported by";
+"push_info_work_order_management_detail_functional_location_title" = "Functional Location";
+"push_info_work_order_management_detail_header_title" = "Details";
+"push_info_work_order_management_description" = "Masz nowe zadanie";
+
+// MARK: - Forward Work Order
+
+"forward_work_order_page_title" = "Przekaż do innej grupy zawodowej";
+"forward_work_order_work_order" = "Maintenance order*";
+"forward_work_order_work_center" = "Workshop*";
+"forward_work_order_footer_button_title" = "Request support";
+"forward_work_order_all_items" = "Wszystko (%@)";
+"forward_work_order_search_work_center_placeholder" = "Search Competent Workshop";
+"forward_work_order_search_filter_search_placeholder" = "Search Maintenance Order";
+"forward_work_order_confirm_toast_message" = "Zlecenie pracy przekazane";
+"forward_work_order_select_work_order_page_title" = "Select Maintenance Order";
+"forward_work_order_assign_cell_title" = "Order";
+
+// MARK: - Notification Status
+
+"notification_new_status" = "NEW";
+"notification_assigned_status" = "ASSIGNED";
+"notification_reject_status" = "ODRZUCONE";
+"notification_closed_status" = "ZAMKNIĘTE";
+"notification_filed_status" = "Wypełniony";
+"notification_dummy_status" = "Fikcyjny";
+"notification_status_assigned_to_me" = "Dla mnie";
+
+// MARK: - Work Order Status
+
+"work_order_assigned_to_me_status" = "Przypisany do mnie";
+"work_order_not_assigned_to_me_status" = "NIE PRZYPISANE DO MNIE";
+
+// MARK: - Select Notification Status
+
+"select_notification_status_page_title" = "Wybierz status";
+"select_notification_status_table_section_header" = "Wszystkie stany (%@)";
+"select_notification_status_section_header_selected" = "Selected (%@)";
+"select_notification_status_footer_button_title" = "Wybór potwierdzenia";
+
+// MARK: - Select Multiple Notification Type
+
+"select_multiple_notification_type_page_title" = "Wybierz typ zgłoszenia";
+"select_multiple_notification_type_table_section_header" = "Wszystkie typy zgłoszeń (%@)";
+"select_multiple_notification_type_section_header_selected" = "Selected (%@)";
+"select_multiple_notification_type_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Equipment
+
+"select_multiple_equipment_page_title" = "Wybierz urządzenie";
+"select_multiple_equipment_table_section_header" = "Wszystkie typy urządzeń (%@)";
+"select_multiple_equipment_section_header_selected" = "Selected (%@)";
+"select_multiple_equipment_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Work Order Type
+
+"select_multiple_work_order_type_page_title" = "Wybierz typ zlecenia pracy";
+"select_multiple_work_order_type_table_section_header" = "Wszystkie typy zleceń pracy (%@)";
+"select_multiple_work_order_type_section_header_selected" = "Selected (%@)";
+"select_multiple_work_order_type_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Functional Location
+
+"select_multiple_functional_location_page_title" = "Wybierz lokalizację funkcjonalną";
+"select_multiple_functional_location_table_section_header" = "Wszystkie lokalizacje funkcjonalne (%@)";
+"select_multiple_functional_location_section_header_selected" = "Selected (%@)";
+"select_multiple_functional_location_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Multiple Selection
+
+"multiple_selection_footer_button_title" = "Wybrane potwierdzenie";
+"select_notification_status_section_header_selected" = "Selected (%@)";
+"select_notification_status_section_header" = "All (%@)";
+
+// MARK: - Barcode Filter Button View
+
+"barcode_filter_button_view_barcode_button_title" = "Barcode";
+"barcode_filter_button_view_filter_button_title" = "Filters";
+
+// MARK: - Create Reservation
+
+"create_reservation_page_title" = "Tworzenie rezerwacji";
+"create_reservation_movement_type_title" = "Typ ruchu*";
+"create_reservation_sap_work_order_title" = "Zlecenie pracy*";
+"create_reservation_cost_center_title" = "Cost center";
+"create_reservation_footer_button_title" = "Wypełnij listę materiałów";
+"create_reservation_discharge_point_title" = "Delivery point";
+"create_reservation_discharge_point_title_mandatory" = "Delivery point*";
+"create_reservation_date_of_need" = "Data zapotrzebowania";
+"create_reservation_express_check" = "Szybki";
+
+// MARK: - Select Movement Type
+
+"select_movement_type_page_title" = "Rodzaj ruchu";
+"select_movement_type_table_section_header_view_item" = "Elementy (%@)";
+
+// MARK: - Reservation Details
+
+"reservation_details_page_title" = "Szczegóły rezerwacji";
+"reservation_details_sap_reservation_title" = "Rezerwacja SAP";
+"reservation_details_footer_button_title" = "Close";
+"reservation_details_toast_message" = "Utworzono nową rezerwację";
+
+// MARK: - Reservation Items
+
+"reservation_items_page_title" = "Rezerwacja";
+"reservation_items_add_button_title" = "Nowa pozycja";
+"reservation_items_delete_button_title" = "Zmiana pozycji";
+"reservation_items_edit_button_title" = "Change item";
+"reservation_items_table_section_header_view_item" = "Przedmioty (%@)";
+"reservation_items_footer_button_title" = "Zapisz i wydrukuj";
+"reservation_items_title_items" = "Pozycja %@";
+"reservation_items_items_deleted_toast_message" = "Usunięte składniki";
+"reservation_items_spare_part_title" = "Część zamienna";
+"reservation_items_text_title" = "Opis";
+"reservation_items_quantity_title" = "Ilość";
+"reservation_items_unrestricted_title" = "Do użycia";
+"reservation_items_quality_title" = "Jakość";
+"reservation_items_wh_title" = "Magazyn";
+"reservation_items_unit_title" = "Jednostka";
+"reservation_items_plant_title" = "Zakład";
+
+// MARK: - Add Reservation Item
+
+"add_reservation_item_right_button_title" = "End";
+"add_reservation_item_page_title" = "Add item";
+"add_reservation_spare_part_title" = "Spare part*";
+"add_reservation_bom_title" = "BOM";
+"add_reservation_text_title" = "Description";
+"add_reservation_quantity_title" = "Quantity*";
+"add_reservation_unrestricted_title" = "Free use";
+"add_reservation_quality_title" = "Quality";
+"add_reservation_wh_title" = "Warehouse";
+"add_reservation_unit_title" = "Unit";
+"add_reservation_plant_title" = "Plant";
+"add_reservation_longtext_title" = "Long Description";
+"add_reservation_bom_quantity_title" = "Installed BOM";
+"add_reservation_id_manufacturer_title" = "Manufacturer";
+"add_reservation_note1_title" = "POTX1";
+"add_reservation_note2_title" = "POTX2";
+"add_reservation_quantity_reserved_title" = "Quantity Reserved";
+
+//MARK: - Confirm Machine Restart
+
+"confirm_machine_restart_page_title" = "Potwierdź start maszyny";
+"confirm_machine_restart_detail_work_order_type_title" = "WO Type";
+"confirm_machine_restart_detail_equipment_title" = "Equipment";
+"confirm_machine_restart_detail_functional_location_title" = "Functional Location";
+"confirm_machine_restart_detail_reported_by_title" = "Reported by";
+"confirm_machine_restart_detail_notification_title" = "Notification";
+"confirm_machine_restart_detail_notification_date_title" = "Data rozpoczęcia";
+"confirm_machine_restart_header_title" = "Work Order";
+"confirm_machine_restart_description" = "The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed";
+"confirm_machine_restart_footer_button_title" = "Restart confirmation";
+
+//MARK: - Confirm Date and Hour
+
+"confirm_date_and_hour_page_title" = "Potwierdź datę i godzinę";
+"confirm_date_and_hour_date_picker_title" = "Restart";
+"confirm_date_and_hour_toast_message_offline" = "Data saved locally";
+"confirm_date_and_hour_toast_message" = "Restart potwierdzony";
+
+//MARK: - Confirm Working Start
+
+"confirm_working_start_page_title" = "Codzienna lista zleceń pracy";
+"confirm_working_start_cell_work_order_title" = "Zlecenie pracy / Operacja";
+"confirm_working_start_cell_equipment_title" = "Equipment";
+"confirm_working_start_cell_reservation_tag" = "Rezerwacja";
+"confirm_working_start_table_header_title" = "Wszysko %@";
+"confirm_working_start_table_header_title_selected" = "Wybrane (%@)";
+"confirm_working_start_footer_button_title" = "Początek";
+
+// MARK: - Time Declaration
+
+"time_declaration_page_title" = "Deklaracja czasowa";
+"time_declaration_stop_button_title" = "STOP";
+"time_declaration_break_button_title" = "Przerwa";
+"time_declaration_work_order_title" = "Zlecenie pracy z SAP";
+"time_declaration_operation_title" = "Operacja";
+"time_declaration_start_table_header_title" = "Zlecenia pracy (%@)";
+"time_declaration_stop_success_toast_message" = "Status zlecenia pracy jest zatrzymany";
+"time_declaration_break_success_toast_message" = "Status zlecenia pracy jest czasowo wstrzymany";
+
+// MARK: - Notification Management
+
+"notification_management_page_title" = "Przypisanie zgłoszenia";
+"notification_management_assign_to_title" = "Przypisz do";
+"notification_management_reject_button_title" = "Odrzuć";
+"notification_management_assign_to_me_button_title" = "Przypisz do mnie";
+"notification_management_show_work_order_button_title" = "Show info WO";
+"notification_management_assign_to_me_and_create_work_order_button_title" = "Przypisz do mnie i utwórz zlecenie pracy";
+"notification_management_create_wo_button_title" = "Tworzenie zlecenia pracy";
+"notification_management_confirm_button_title" = "Potwierdź przypisanie";
+"notification_management_toast_message_rejected" = "Zgłoszenie odrzucone";
+"notification_management_toast_message_assigned" = "Przypisanie wykonane pomyślnie";
+
+// MARK: - Work Order Management
+
+"work_order_management_page_title" = "Zarządzanie zleceniami pracy";
+"work_order_management_page_title_show" = "WO Management";
+"work_order_management_sap_work_order" = "Zlecenie pracy";
+"work_order_management_equipment" = "Equipment";
+"work_order_management_functional_location" = "Functional Location";
+"work_order_management_inventory_number" = "Inventory number";
+"work_order_management_cost_center" = "Cost center";
+"work_order_management_notification_type" = "Notification Type";
+"work_order_management_type" = "WO Type";
+"work_order_management_short_text_placeholder" = "Short text";
+"work_order_management_malfunction_start" = "Malfunction Start";
+"work_order_management_reportedby" = "Reported by";
+"work_order_management_notification_attachments" = "Załącznik do notyfikacji";
+"work_order_management_priority" = "Priority";
+"work_order_management_long_text_placeholder" = "Additional Notes";
+"work_order_management_pmact_type" = "Activity Type ";
+"work_order_management_attachments" = "Notyfikacja/WO załącznik";
+"work_order_management_assigned_button_title" = "Close";
+"work_order_management_not_assigned_button_title" = "";
+"work_order_management_operation" = "Operacje";
+"work_order_management_reservation" = "Rezerwacje";
+"work_order_management_object_list" = "Obiekty";
+
+// MARK: - Documentation Master Data
+
+"documentation_master_data_page_title" = "Dokumentacja/Dane podstawowe";
+"documentation_master_data_search_equipment" = "Search equipment";
+"documentation_master_data_search_material" = "Wybierz część zamienną";
+"documentation_master_data_search_functional_location" = "Search Functional Location";
+"documentation_master_data_view_documentation_master_data" = "Zobacz dokumentację";
+"documentation_master_data_link_column_header" = "Połącz";
+"documentation_master_data_document_type_column_header" = "Typ dokumentu";
+"documentation_master_data_document_column_header_spare_parts" = "Materiał NR";
+"documentation_master_data_document_column_header_equipment" = "Urządzenie nr";
+"documentation_master_data_version_column_header" = "Wersja";
+"documentation_master_data_description_column_header" = "Description";
+"documentation_master_data_material_column_header" = "Materiał";
+"documentation_master_data_description_column_header" = "Description";
+"documentation_master_data_quantity_column_header" = "Quantity ";
+"documentation_master_data_unit_column_header" = "Unity";
+"documentation_master_data_long_text_column_header" = "Długi tekst";
+"documentation_master_data_link_text" = "Wizualizacja";
+
+// MARK: - Equipment Documentation
+
+"equipment_documentation_page_title" = "Dane urządzenia";
+"equipment_documentation_documentation_section_header" = "Dokumentacja";
+"equipment_documentation_bom_section_header" = "BOM";
+"equipment_documentation_manufacturer_data_section_header" = "Dane producenta";
+"equipment_documentation_position_data_section_header" = "Dane pozycji";
+"equipment_documentation_manufacturer" = "Producent";
+"equipment_documentation_manufacturer_model" = "Numer modelu producenta";
+"equipment_documentation_year_of_construction" = "Rok produkcji";
+"equipment_documentation_serial_number" = "Numer seryjny";
+"equipment_documentation_plant" = "Zakład";
+"equipment_documentation_plant_section" = "Obszar zakładu";
+
+// MARK: - Documentation
+
+"documentation_page_title" = "Documentation";
+"no_associated_documents" = "Brak powiązanych dokumentów";
+
+// MARK: - Work Order Operations
+
+"work_order_operations_page_title" = "Operations";
+"work_order_operations_operation_number" = "Numer operacji:";
+"work_order_operations_operation_work_center" = "Grupa robocza:";
+"work_order_operations_operation_long_text" = "Opis:";
+"work_order_operations_operation_long_text_2" = "Długi tekst:";
+"work_order_operations_operation_status" = "Stan maszyny:";
+
+// MARK: - Work Order Reservations
+
+"work_order_reservations_page_title" = "Reservations";
+"work_order_reservations_component" = "Materiał:";
+"work_order_reservations_material_description" = "Opis materiału:";
+"work_order_reservations_quantity" = "Ilość:";
+"work_order_reservations_unit_of_measure" = "Jednostka miary:";
+"work_order_reservations_reservation_per_request" = "Rezerwacja do zgłoszenia";
+"work_order_reservations_reservation" = "Rezerwacja:";
+"work_order_reservations_reservation_item" = "Pozycja rezerwacyjna:";
+
+//MARK: - Technical Summary
+
+"technical_summary_page_title" = "Podsumowanie techniczne";
+"technical_summary_footer_button_title" = "Zapisz i zamknij";
+"technical_summary_work_order_mandatory" = "Work Order*";
+"technical_summary_work_order" = "Work Order";
+"technical_summary_work_order_type" = "WO Type";
+"technical_summary_operation_mandatory" = "Operacja*";
+"technical_summary_operation" = "Operacja";
+"technical_summary_notification_mandatory" = "Notification*";
+"technical_summary_notification" = "Notification";
+"technical_summary_required_end_mandatory" = "Koniec zadania *";
+"technical_summary_required_end" = "Koniec zadania";
+"technical_summary_equipment_affected_mandatory" = "Powiązane urządzenia *";
+"technical_summary_equipment_affected" = "Powiązane urządzenia";
+"technical_summary_long_text_placeholder" = "Additional Notes";
+"technical_summary_breakdown" = "Breakdown";
+"technical_summary_effect" = "Effect";
+"technical_summary_reported_by" = "Reported by";
+"technical_summary_damage_mandatory" = "Tryb awaryjny*";
+"technical_summary_damage" = "Tryb awaryjny";
+"technical_summary_damage_description_placeholder" = "Podaj opis przyczyny";
+"technical_summary_damage_description_placeholder_mandatory" = "Podaj opis przyczyny*";
+"technical_summary_cause_mandatory" = "Przyczyna*";
+"technical_summary_cause" = "Przyczyna";
+"technical_summary_cause_description_placeholder" = "Podaj opis przyczyny";
+"technical_summary_cause_description_placeholder_mandatory" = "Podaj opis przyczyny*";
+"technical_summary_maintainability_mandatory" = "Konserwacja*";
+"technical_summary_maintainability" = "Konserwacja";
+"technical_summary_activities_mandatory" = "Czynność*";
+"technical_summary_activities" = "Czynność";
+"technical_summary_toast_message_offline" = "Utworzono podsumowanie techniczne. %@";
+"technical_summary_toast_message" = "Utworzono podsumowanie techniczne. %@";
+"technical_summary_activities_selected" = "%@ Składniki";
+"technical_summary_operation_feedback" = "Wynik prac";
+"technical_summary_no_operation_feedback" = "Żadnych przedmiotów";
+"technical_summary_operation_feedback_value" = "%@ elements";
+"technical_summary_assign_new_order" = "Assigned to another order";
+
+//MARK: - Select Equipment Affected
+
+"select_equipment_affected_page_title" = "Equipment Affected";
+"select_equipment_affected_search_placeholder" = "Search equipment";
+"select_equipment_affected_equipment_found" = "Equipment found: %@";
+
+// MARK: - My Work List
+
+"my_work_list_page_title" = "Activity list ";
+"my_work_list_search_placeholder" = "Wybierz zgłoszenie";
+"my_work_list_operation_field" = "Operation";
+"my_work_list_priority_field" = "Priority";
+"my_work_list_work_order_type" = "WO Type";
+
+// MARK: - Select Equipment Or SpareParts
+
+"select_equipment_or_spareparts_page_title" = "Dodaj BOM";
+"select_equipment_or_spareparts_header_equipment" = "Wybrane urządzenie:";
+"select_equipment_or_spareparts_spareparts_found" = "Znalezione części zamienne: %@";
+"select_equipment_or_spareparts_equipment_found" = "Equipment found: %@";
+"select_equipment_or_spareparts_search_placeholder" = "Wybierz urządzenie / część zamienną";
+
+// MARK: - Log Out Alert View
+
+"log_out_alert_view_title" = "Czy na pewno chcesz się wylogować?";
+"log_out_alert_view_left_button" = "No";
+"log_out_alert_view_right_button" = "Yes";
+
+// MARK: - ActivityItems
+
+"activity_items_page_title" = "Activity";
+"activity_items_add_button_title" = "Dodaj aktywność";
+"activity_items_delete_button_title" = "Zmiana czynności";
+"activity_items_table_section_header_view_item" = "Czynność (%@)";
+"activity_items_footer_button_title" = "Confirm";
+"activity_items_activity_cell_title" = "Activity";
+"activity_items_activity_cell_description" = "Brak opisu";
+
+//MARK: - Add Activity Item
+
+"add_activity_item_page_title" = "Add activity";
+"add_activity_item_activity_title" = "Activity";
+"add_activity_item_activity_description_placeholder" = "Wpisz opis pracy";
+
+//MARK: - Operation Feedback
+
+"operation_feedback_page_title" = " Operation's result";
+"operation_feedback_item_title" = "Operation";
+"operation_feedback_operation_title" = "Operation";
+"operation_feedback_status_title" = "Stan maszyny";
+"operation_feedback_feedback_title" = " Operation's result";
+"operation_feedback_feedback_selected" = "%@ Wybrany";
+"operation_feedback_feedback_not_selected" = "Brak wyników";
+
+// MARK: - Select Multiple Feedback
+
+"select_multiple_feedback_page_title" = "Wybierz wynik";
+"select_multiple_feedback_table_section_header" = "Wszystkie wyniki (%@)";
+"select_multiple_feedback_section_header_selected" = "Selected (%@)";
+"select_multiple_feedback_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Operation Feedback Status
+
+"operation_feedback_status_out_of_order" = "Wykonano";
+"operation_feedback_status_running" = "Aktywny";
+
+// MARK: - Mobile Reservation Status
+
+"mobile_reservation_status_now" = "W tym momencie";
+"mobile_reservation_status_never" = "Nigdy";
+
+// MARK: - ShowAttachments
+
+"show_attachments_page_title" = "Załączniki";
+"show_attachments_close_button_title" = "Close";
+"show_attachments_attachments_component" = "Attachments (%d)";
+"show_attachments_no_content_label" = "Brak dostępnej dokumentacji";
+
+// MARK: - Search Equipment Documentation
+
+"search_equipment_documentation_barcode_button_title" = "Wybierz kod kreskowy";
+"search_equipment_documentation_confirm_button_title" = "Confirm";
+"search_equipment_documentation_page_title" = "Search equipment";
+"search_equipment_documentation_search_bar_placeholder_text" = "Wybierz urządzenie";
+
+// MARK: - Spare Part Details
+
+"spare_part_details_page_title" = "Opis części zamiennych";
+"spare_part_details_confirm_button" = "Wyświetl dokumenty/dane główne";
+"spare_part_details_spare_part_title" = "Spare part";
+"spare_part_details_material_type_title" = "Typ materiału";
+
+// MARK: - Material Documentation
+
+"material_documentation_page_title" = "Dane materiałowe";
+"material_documentation_documentation_section_header" = "Documentation";
+
+// MARK: - Object list
+
+"object_list_page_title" = "Objects";
+"object_list_equipment" = "Equipment:";
+"object_list_equipment_desc" = "Opis urządzenia:";
+"object_list_functional_location" = "Functional Location:";
+"object_list_functional_location_desc" = "Opis lokalizacji funkcjonalnej:";
+"object_list_short_text" = "Opis zgłoszenia";
+"object_list_footer_button_title" = "Save";
+"object_list_save_not_availabe_offline" = "Saving not available offline";
+
+// MARK: - Assignment Detail
+
+"assignment_detail_page_title" = "Craftman detail";
+"assignment_detail_active_assignment" = "Current assignment";
+"assignment_detail_received_assignment" = "Received Assignment";
+"assignment_detail_button_confirm" = "Confirm assignment";
+"assignment_detail_assigned_by" = "Assigned by";
+"assignment_detail_date_and_hour" = "Date and hour";
+"assignment_detail_order_type" = "WO type";
+
