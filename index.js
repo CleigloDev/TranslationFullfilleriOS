@@ -85,6 +85,37 @@ const insertChangedTranslation = async() => {
     fs.writeFile("./output/changedTranslation.txt", translatedFull, () => {}) //file con traduzioni modificate
 }
 
+const generateExcelLikeForTranslation = async() => {
+    const itReference = fs.readFileSync('./fileToRead/generateExcelProcedure/ITReference.txt').toString() // ripulito di //.* e \n
+    let arrayTranslation = [];
+    for(let i = 1; i <= 3; i++) {
+        arrayTranslation.push(fs.readFileSync(`./fileToRead/generateExcelProcedure/translation${i}.txt`).toString())
+    }
+
+    let tabledList = "";
+    const referenceArray = itReference.split(";");
+
+    referenceArray.map((reference) => {
+        if(!reference) return
+        const referenceKey = reference.match(/"(.*)".*=/)[1] || ""
+        const referenceValue = reference.match(/=.*"(.*)"/)[1] || ""
+        tabledList += referenceKey + "\t" + referenceValue + "\t"
+        const regexp = new RegExp("\""+referenceKey+"\".*=.*\"(.*)\"")
+        arrayTranslation.map((translation, index) => {
+            const translationValue = translation.match(regexp)[1] || ""
+            tabledList += translationValue + "\t"
+            if(index === arrayTranslation.length - 1) {
+                tabledList += "\n"
+            }
+        })
+    })
+
+    fs.writeFile("./output/tabledTranslation.txt", tabledList, () => {}) //file con traduzioni modificate
+
+}
+
 //readAndCompareFiles(compareEqualToReference)
 
-insertChangedTranslation()
+//insertChangedTranslation()
+
+generateExcelLikeForTranslation();

@@ -1,0 +1,647 @@
+user_second_field	No OdM	Brak zlecenia pracy	No WO	Нет ордера	
+not_available	Non disponibile	Niedostępny	Unavailable	Недоступно	
+select_all_button	Seleziona tutto	Zaznacz wszystko	Select all	Выбрать всё	
+deselect_all_button	Deseleziona tutto	Odwołaj wybory	Deselect all	Отменить выбор всего	
+required_information	* indica un campo obbligatorio	* Wymagane pole	* Required field	Требуемое поле	
+filters_button	Filtri	Filtry	Filters	Фильтры	
+back_button	Indietro	Powrót	Back	Назад	
+cancel_button	Annulla	Anuluj	Cancel	Отмена	
+done_button	Fine	Koniec	End	Далее	
+offline_connectivity	Offline	Offline	Offline	Офлайн	
+attention_title	Attenzione	Uwaga	Attention	ВНИМАНИЕ	
+connection_unavailable	Connessione non disponibile	Połączenie niedostępne	Connection not available	Подключение не доступно	
+no_element	Nessun elemento disponibile	Brak dostępnych pozycji	No items available	Нет доступных позиций	
+attachments_upload_success	Gli allegati sono stati caricati con successo!	Załączniki zostały pomyślnie przesłane!	The attachments have been successfully uploaded!	Файлы успешно загружены	
+software_version	Vers. %@	Wersja %@	Vers. %@	Версия %@	
+json_decode_failure	Decodifica del json fallita!	Failed to decode JSON!	Failed to decode JSON!	Failed to decode JSON!	
+barcode_scanner_error	Impossibile ottenere un risultato dalla scansione	Nie można uzyskać wyniku skanowania	Unable to get a result from scan	Ошибка. Невозможно получить результат сканирования	
+barcode_scanner_camera_error	Impossibile accedere alla fotocamera	Brak dostępu do kamery	Unable to access camera	Невозможно получить доступ к камере	
+barcode_scanner_flash_error	Impossibile accedere al flash	Brak dostępu do pamięci flash	Unable to access the barcode scanner	Невозможно получить доступ к вспышке	
+user_info_loading_failure	Le tue informazioni non sono state caricate correttamente	Informacje nie zostały poprawnie przesłane	Your information has not been uploaded correctly	Ваша информация была загружена некорректно	
+unavailable_data_service	Si è verificato un errore	Wystąpił błąd	An error has occurred	Произошла ошибка	
+offline_odata_store_error	Errore durante la creazione dell'offline store	Błąd podczas tworzenia zapasu offline	Error while creating the offline store	Ошибка. Невозможно создать в режиме офлайн	
+camera_access_denied	Hai negato l'accesso alla fotocamera, per abilitare questa funzionalità vai nelle impostazioni.	Brak dostępu do aparatu, aby włączyć tę funkcję, przejdź do ustawień.	You do not have acces to the camera, to enable this feature change the phone settings. If this doesn't work, request IT assistance.	Вы запретили доступ к камере, чтобы включить эту функцию, перейдите в настройки устройства.	
+attachments_presentation_failure	Si è verificato un errore durante il caricamento dell'allegato.	Wystąpił błąd podczas ładowania załącznika.	An error occurred while loading the attachment.	Ошибка при загрузке вложения	
+push_notification_permission_denied	Le notifiche sono disattivate per questa app, per abilitarle vai nelle impostazioni.	Informacje pulpitu są wyłączone dla tej aplikacji, przejdź do ustawień żeby zmienić ustawienia.	Push-info are disabled for this app, to enable them go to the settings.	Push-информация отключена для этого приложения, чтобы включить перейдите в настройки устройства.	
+offline_store_synch_running	Sincronizzazione dati in corso, riprova più tardi.	Synchronizacja danych w toku, spróbuj ponownie	Data synchronization in progress, please try again later.	Выполняется синхронизация данных. Повторите попытку позже	
+item_not_found	Errore nel caricamento delle informazioni.	Błąd podczas ładowania informacji.	Error loading the information.	Ошибка загрузки информации	
+old_notification	Attività già eseguita da un altro utente	Czynność już wykonana przez innego użytkownika	Error while loading information, notification may be obsolete	Действике*	
+notification_parsing_failure	Non è stato possibile recuperare le informazioni per questa richiesta, consultare la propria lista di lavoro per visualizzarla.	Nie można pobrać informacji dla tej prośby, sprawdź listę roboczą, aby ją wyświetlić.	Unable to retrieve the information for this request, consult your working list to view it.	Не удалось получить информацию для этого запроса, обратитесь к своему рабочему списку, чтобы просмотреть его.	
+feature_not_available_offline_error	Questa funzionalità non è disponibile offline	Ta funkcja nie jest dostępna w trybie offline	This feature is not available offline	Эта функция недоступна в офлайн	
+max_item_reached	Puoi selezionare al massimo 5 elementi!	Możesz wybrać do 5 pozycji!	You can select up to 5 items!	Вы можете выбрать до 5 элементов!	
+material_number_not_found	Numero materiale non trovato	Nie znaleziono numeru materiału	Material number not found	Номер материала не найден	
+invalid_document_link_error	Il collegamento al documento non è valido	Link do dokumentu jest nieprawidłowy	Link to document not valid	Ссылка на документ недействительна	
+already_assigned	Richiesta già presa in carico da un utente	Zlecenie już przyjęte przez użytkownika	Request already taken on by a user	Запрос уже принят пользователем	
+already_assigned_to	Richiesta già presa in carico da un utente %@	Request already taken on by a user %@	Request already taken on by a user %@	Request already taken on by a user %@	
+user_logout_failed	Errore durante il logout, si prega di riprovare!	Błąd podczas wylogowania, spróbuj ponownie!	Error while logging out, please try again!	Ошибка при выходе из приложения, попробуйте еще раз!	
+logout_offline_error	Sei offline, se vuoi fare log-out tornare in modalità online	Jesteś offline, przeloguj się	Offline: log out & log back in for online mode	Вы в режиме офлайн, если Вы хотите войти, вернитесь в онлайн режим	
+notification_assigned_status_closed	Impossibile completare l'azione, la notifica corrispondente all'ordine in carico non è in stato assegnato o il tipo di ordine non prevede consuntivazione	Brak możliwości dokończenia operacji, zgłoszenie odpowiadające zleceniu nie jest przypisane lub rodzaj zlecenia nie przewiduje podsumowania technicznego	Unable to complete the action, the notification corresponding to the order in charge is not in assigned status or the type of order does not provide for technical summary	Невозможно завершить действие, так как нотификация, соответствующая ордеру, находится в некорректном статусе, или для данного типа ордера не предоставляется технического заключения	
+action_not_possible_due_to_wrong_status	Attività già eseguita da un altro utente	Nie można ukończyć operacji, zgłoszenie ma nieprawidłowy status	Activity already carried out by another user	Невозможно завершить действие, так как нотификация находится в некорректном состоянии	
+no_work_order_assigned	Impossibile completare l'azione, non si ha alcun ordine di lavoro assegnato	Nie można ukończyć operacji, nie masz przypisanego zlecenia pracy	Unable to complete the action, you do not have any assigned work order	Невозможно совершить действие, так как у Вас нет назначенного ордера	
+synching_spare_parts_reservation	Sincronizzazione parti di ricambio in corso, è necessario attendere il completamento per creare una reservation	Trwa synchronizacja części zamiennych, poczekaj na rezerwację	Synchronization of spare parts in progress, it is necessary to wait for completion to create a reservation	Выполняется синхронизация запчастей, необходимо дождаться завершени процесса для создания резервирования	
+synching_spare_parts_general	Sincronizzazione parti di ricambio in corso, è necessario attendere il completamento prima di procedere	Trwa synchronizacja części zamiennych, poczekaj aż się zakończy	Synchronization of spare parts in progress, it is necessary to wait for completion before proceeding	Выполняется синхронизация запчастей, необходимо дождаться завершения, прежде чем продолжить	
+mobile_equipment	Per questo tipo di equipment è necessario proseguire il flusso sul sistema sorgente	W przypadku tego typu urządzeń konieczne jest kontynuowanie operacji w SAP	For this type of equipment it is necessary to continue the flow on the source system	Для этого типа оборудования необходимо продолжить поток в исходной системе.	
+attachments_upload_unavailable	Non è stato possibile caricare i tuoi allegati perchè la connessione è assente	Nie można wczytać załączników, brak połączenia	Your attachments could not be loaded because the connection is absent	Файлы не могут быть загружены из-за отсутствия соединения	
+attachments_upload_failed	Il caricamento degli allegati è fallito con i seguenti errori: %@	Ładowanie załączników nie powiodło się z następującymi błędami: %@	Attachments' loading failed with the following errors: %@	При загрузке файлов произошли следующие ошибки:	
+attachments_size_exceeded	L'allegato supera la dimensione massima di 10MB	Załącznik przekracza maksymalny rozmiar 10 MB	Attachment exceeds the maximum size of 10MB	Файл превышает максимальный размер 10 МB.	
+unavailable_attachment_size	Non è stato possibile verificare la dimensione degli allegati, riprova.	Nie można zweryfikować rozmiaru załączników, spróbuj ponownie.	Unable to verify the size of attachments, please try again.	Не удалось проверить размер вложенных файлов, попробуйте еще раз.	
+offline_sync_error	Errore di sincronizzazione con il sistema sorgente sull'entità %@:\n %@ \nverificare gli oggetti creati quando si era offline.	Błąd synchronizacji z systemem źródłowym obiektu %@:\n %@\nsprawdź obiekty utworzone w trybie offline.	Synchronization error with the source system on the entity  %@:\n %@\ncheck the objects created when you were offline.	Ошибка синхронизации с исходной системой на объекте. Проверьте объек, созданный, когда Вы были в офлайн-режиме	
+complete_flow	Completare l'operazione corrente	Zakończ bieżącą operację	Complete the current operation	Завершить текущую операцию	
+attachments_conversion_data_failed	Impossibile leggere il contenuto del file	Nie można odczytać zawartości pliku	Unable to read file content	Невозможно воспроизвести содержимое файла	
+attachments_temp_folder_write_failed	Errore durante il download del file	Błąd podczas pobierania pliku	Error while downloading file	Ошибка при скачивании файла	
+attachments_compression_failed	Compressione allegato fallita, riprovare	Kompresja załącznika nie powiodła się, spróbuj ponownie	Attachment compression failed, please try again	Не удалось сжать прикрепленные файлы, попробуйте еще раз	
+connection_error_notification_creation	A causa di problemi di connessione, l'oggetto potrebbe non essere stato creato. Si prega di verificare nella lista attività, in caso contrario è necessario riprovare.	Z powodu problemów z połączeniem obiekt mógł nie zostać utworzony. Sprawdź listę aktywności, w przeciwnym razie spróbuj ponownie.	Due to connection problems, the object may not have been created. Please check the activity list, otherwise try again.	Из-за проблем с соеденением, нотификация НЕ была создана	
+invalid_regex	La regola di validazione non può essere verificata	Nie można zweryfikować zgodności sprawdzenia	The validation rule cannot be verified	Правило проверки не может быть проверено	
+required_error	Questo valore è obbligatorio	Wymagana wartość	This value is mandatory	Это значение обязательно	
+missing_content	Il valore inserito non contiene %@	Wprowadzona wartość nie zawiera %@	The entered value does not contain %@	Введенное значение ничего не содержит %@	
+missing_prefix	Il valore inserito non contiene il prefisso %@	Wprowadzona wartość nie zawiera początku %@	The entered value does not contain the prefix %@	Введенное значение не содержит приставки %@	
+missing_suffix	Il valore inserito non contiene il suffisso %@	Wprowadzona wartość nie zawiera zakończenia %@	The entered value does not contain the suffix %@	Введенное значение не содержит окончания %@	
+only_numbers_error	Il valore inserito deve contenere solo numeri	Wprowadzona wartość musi zawierać tylko liczby	The entered value must contain only numbers	Введенное значение должно содержать только цифры	
+not_zero_error	Il valore inserito deve essere maggiore di 0	Wprowadzona powinna być większa niż 0	The value entered shall be greater than 0	Введенное значение должно быть больше 0	
+max_characters_error	Puoi inserire solo %@ caratteri	Możesz wprowadzać tylko znaki %@	You can only enter %@ characters	Перевышенно количество символов	
+has_emoji_error	Il valore inserito contiene caratteri non validi	Wprowadzona wartość zawiera nieprawidłowe znaki	The entered value contains invalid characters	Введенное значение содержит недопустимые парамметры	
+not_after_now	Data non corretta	Nieprawidłowa data	Incorrect date	Неверная дата	
+not_before_now	Data non corretta	Incorrect date	Incorrect date	Incorrect date	
+data_synchronization_message	Sincronizzo i dati	Synchronizuj dane	Synchronize the data	Синхронизировать данные	
+retry_limit_reached_title	Hai raggiunto il limite massimo di tentativi.	Osiągnąłeś limit prób.	You have reached the maximum number of attempts.	Превышено количество попыток	
+retry_limit_reached_message	Hai raggiunto il numero massimo di tentativi. L'applicazione deve essere resettata.	Osiągnąłeś maksymalną liczbę prób. Aplikacja wymaga zresetowania.	You have reached the maximum number of attempts. The application needs to be reset.	Превышено количество попыток. Приложение необходимо перезагрузить	
+retry_button_title	Riprova	Spróbuj ponownie	Try again	Попробуйте еще раз	
+reset_button_title	Reset	Reset	Reset	Сбросить	
+login_failed_title	Login non riuscita.	Logowanie nie powiodło się.	Login failed.	Ошибка авторизации	
+error_title	Attenzione	Attention	Attention	Attention	
+error_ok_button	OK	OK	OK	ОК	
+alert_controller_authorizations_go_to_settings	Hai negato l'autorizzazione a questa funzionalità. Per modificarla accedi alle impostazioni.	Brak dostępu do tej funkcji. Aby to zmienić, przejdź do ustawień.	You do not have permission for this feature. To change permissions, you much request IT assistance.	Вы отказали в доступе к этой функции. Чтобы его изменить, зайдите в настройки.	
+alert_controller_go_to_settings_button	Vai a Impostazioni	Przejdź do ustawień	Go to Settings	Перейти к настройкам	
+loading_message	CARICAMENTO IN CORSO	Trwa przesyłanie załączników	Uploading attachments in progress	Выполняется загрузка вложений	
+home_page_title	Pagina Iniziale	Strona główna	Homepage	Стартовый экран	
+home_page_action_report_a_failure	Gestione Richieste	Zarządzanie zgłoszeniami	Notification Management	Управление нотификацией	
+home_page_action_manage_MCTE	Manutenzione	Konserwacja	Maintenance	Техническое обслуживание	
+home_page_action_documentation	Documentazione & Anagrafica	Dokumentacja i dane podstawowe	Documentation & Master data	Документация и Основные данные	
+report_a_failure_page_title	Gestione Richieste	Notification Management	Notification Management	Notification Management	
+report_a_failure_create_notification	Creazione Richiesta	Utwórz zgłoszenie	Create notification	Создать нотификацию	
+report_a_failure_confirm_restart	Conferma Ripartenza	Potwierdzenie startu	Restart confirmation	Подтверждение запуска	
+report_a_failure_notification_list	Lista Richieste	Lista zgłoszeń	Notification List	Список нотификаций	
+equipment_details_page_title	Dettagli Equipment	Szczegóły urządzenia	Equipment details	Подробности оборудования	
+equipment_details_title_equipment	Equipment	Urządzenie*	Equipment	Подробности оборудования*	
+equipment_details_title_func_location	Sede tecnica	Lokalizacja funkcjonalna	Functional Location	Локация	
+equipment_details_title_inventory_number	Numero NT	Numer inwentarzowy	Inventory number	Инвентарный номер	
+equipment_details_confirm_button_title	Conferma	Potwierdź	Confirm	Подтвердить	
+notification_details_page_title	Richiesta Salvata	Zgłoszenie zapisane	Notification saved	Нотификация сохранена	
+notification_details_title_notification_ID	Richiesta	Zgłoszenie	Notification	Подробности нотификации	
+notification_details_title_work_order_ID	Ordine di Manutenzione	Zlecenie pracy	Work Order	Подробности	
+notification_details_title_equipment	Equipment	Equipment	Equipment	Equipment	
+notification_details_title_func_location	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+notification_details_title_inventory_number	Numero NT	Inventory number	Inventory number	Inventory number	
+notification_details_title_short_text	Descrizione della richiesta	Opis zgłoszenia	Short text	Название нотификации	
+notification_details_close_button_title	Chiudi	Zamknij	Close	Закрыть	
+notification_details_toast_message	Nuova Richiesta Creata	Utworzono nowe zgłoszenie	New Notification Created	Создана новая нотификация	
+notification_details_toast_message_offline	Dato salvato in locale	Dane zapisywane lokalnie	Data saved locally	Данные сохраняются локально	
+notification_details_work_order_toast_message	Nuova Richiesta e nuovo Ordine di Manutenzione creati	Utworzono nowe powiadomienie i nowe zlecenie pracy	New Notification and New Work Order created	Создана новая нотификация и ордер	
+create_notification_page_title	Crea Richiesta	Tworzenie zgłoszenia	Notification creation	Создание нотификации	
+create_notification_required_information	* indica un campo obbligatorio	* Wymagane pole	* Required field	Требуемое поле	
+create_notification_equipment_title	Equipment	Equipment	Equipment	Equipment	
+create_notification_type_title_mandatory	Tipo*	Rodzaj*	Notification Type*	Тип нотификации*	
+create_notification_type_title	Tipo	Typ	Notification Type	Тип	
+create_notification_coding_title_mandatory	Coding*	Kodowanie*	Coding*	Код	
+create_notification_coding_title	Coding	Kodowanie	Coding	Код	
+create_notification_malfunction_start_date_mandatory	Inizio Manut.*	Rozpoczęcie zadania *	Malfunction Start*	Начало простоя*	
+create_notification_malfunction_start_date	Inizio Manut.	Rozpoczęcie zadania	Malfunction Start	Начало простоя	
+create_notification_breakdown_title	Fermo Macchina	Awaria	Breakdown	Простой оборудования	
+create_notification_reported_by_title_mandatory	Richiesto da*	Zgłaszający *	Reported by*	Созданно*	
+create_notification_reported_by_title	Richiesto da	Zgłaszający	Reported by	Созданно	
+create_notification_short_text_placeholder_mandatory	Descrizione della richiesta*	Notification description*	Notification description*	Notification description*	
+create_notification_short_text_placeholder	Descrizione della richiesta	Notification description	Notification description	Notification description	
+create_notification_effect_title_mandatory	Effetto*	Skutek*	Effect*	Эффект*	
+create_notification_effect_title	Effetto	Skutek	Effect	Эффект от поломки	
+create_notification_main_work_center_title_mandatory	Officina competente*	Grupa robocza *	Workcenter*	Рабочее место*	
+create_notification_main_work_center_title	Officina competente	Grupa robocza	Workcenter	Рабочее место	
+create_notification_priority_title_mandatory	Priorità*	Priorytet*	Priority*	Приоритет*	
+create_notification_priority_title	Priorità	Priorytet	Priority	Приоритет	
+create_notification_maintenance_activity_type_title_mandatory	Tipo di attività*	Rodzaj pracy*	Activity Type*	Тип деятельности*	
+create_notification_maintenance_activity_type_title	Tipo di attività	Typ pracy	Activity Type	Тип деятельности	
+create_notification_long_text_placeholder_mandatory	Note Aggiuntive*	Dodatkowe uwagi*	Additional Notes*	Дополнительная информация*	
+create_notification_long_text_placeholder	Note Aggiuntive	Dodatkowe uwagi	Additional Notes	Дополнительная информация	
+create_notification_footer_button_title	Salva	Zapisz	Save	Сохранить	
+create_notification_attachments_take_photo_action	Scatta una foto	Zrób zdjęcie	Take a picture	Сделать фото	
+create_notification_attachments_take_video_action	Fai un video	Zrób film	Make a video	Сделать видео	
+create_notification_attachments_import_photo_action	Libreria foto	Biblioteka zdjęć	Picture library	Библиотека изображений	
+create_notification_attachments_import_file_action	File	Plik	File	Файл	
+create_notification_attachments_title	Allegati (%d)	Załączniki	Attachments (%d)	Прикрепить файл	
+coding_table_view_cell_coding_title_mandatory	Coding*	Coding*	Coding*	Coding*	
+coding_table_view_cell_coding_title	Coding	Coding	Coding	Coding	
+coding_table_view_cell_code_group_title	Code Group	Grupa kodów	Code Group	Группа кодов	
+coding_table_view_cell_code_title	Code	Kod	Code	Код	
+picker_alert_menu_title	Selezionare un tipo Ordine	Wybierz typ zlecenia pracy	Select WO type	Выбрать тип ордера	
+create_notification_alert_controller_title	Vuoi Creare un Ordine di Manutenzione?	Chcesz stworzyć zlecenie pracy?	Do you want to create a WO?	Вы хотите создать ордер?	
+create_notification_alert_controller_left_button	No	Nie	No	Нет	
+create_notification_alert_controller_right_button	Si	TAK	Yes	Да	
+select_equipment_page_title	Creazione Richiesta - Equipment	Tworzenie zgłoszenia - Urządzenie	Notification create - Equipment	Выбор оборудования	
+select_equipment_table_section_header	Equipment trovati: %@	Znalezione urządzenia:	Equipment found: %@	Поиск оборудования	
+select_equipment_search_bar_placeholder	Ricerca Equipment	Wyszukiwanie urządzenia	Search Equipment	Поиск оборудования	
+select_equipment_table_filter_button	Filtri	Filters	Filters	Filters	
+select_equipment_table_scan_button	Codice a Barre	kod kreskowy	Barcode	Штрих-код	
+select_equipment_title_filter_cost_center	Ricerca per: Centro di Costo	Szukaj według: Centrum kosztów	Search by: Cost Center	Поиск по МВЗ	
+select_equipment_title_filter_functional_location	Ricerca per: Sede Tecnica	Szukaj według: Lokalizacja funkcjonalna	Search by: Functional Location	Поиск локации	
+filter_feedback_title	Ricerca per:	Szukaj:	Search for:	Поиск по:	
+filter_equipment_view_title	Ricerca Equipment	Search Equipment	Search Equipment	Search Equipment	
+filter_equipment_filter_form_keyname	Ricerca per:	Search for:	Search for:	Search for:	
+filter_equipment_first_filter_value	Centro di Costo	Centrum kosztowe	Cost center	Место возникновение затрат (МВЗ)	
+filter_equipment_second_filter_value	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+filter_equipment_reset_cell_text	Resetta tutto	Reset danych	Reset all	Сбросить всё	
+filter_equipment_search_filter_cost_center_title	Ricerca Equipment	Search Equipment	Search Equipment	Search Equipment	
+filter_equipment_search_filter_functional_location_title	Ricerca Equipment	Search Equipment	Search Equipment	Search Equipment	
+filter_equipment_footer_button_title	Conferma	Confirm	Confirm	Confirm	
+barcode_scan_page_title	Codice a Barre	Barcode	Barcode	Barcode	
+barcode_scan_close_button	Chiudi	Close	Close	Close	
+search_filter_search_placeholder	Cerca	Wybierz	Search	Поиск	
+search_filter_search_page_title_cost_center	Cerca Centro di Costo	Wybierz centrum kosztowe	Search cost center	Поиск МВЗ	
+search_filter_search_cost_center_count	Centro di Costo trovati: %@	Znajdź centrum kosztowe: %@	Found cost center: %@	Поиск места возникновения затрат (МВЗ)	
+search_filter_search_cost_center_placeholder	Ricerca Centro di Costo	Wyszukiwanie centrum kosztów	Cost Center search	Поиск места возникновения затрат (МВЗ)	
+search_filter_search_page_title_functional_location	Cerca Sede Tecnica	Wybierz lokalizację funkcjonalną	Search Functional Location	Поиск по локации	
+search_filter_search_functional_location_count	Sede Tecnica trovate: %@	Znaleziono lokalizację funkcjonalną: %@	Functional Location found: %@	Локации:	
+search_filter_search_functional_location_placeholder	Ricerca Sede Tecnica	Wyszukiwanie lokalizacji funkcjonalnej	Functional Location search	Поиск локации	
+search_filter_search_page_title_notification_type	Cerca tipo richiesta	Wybierz typ zgłoszenia	Search Notification type	Поиск по типу нотификации	
+search_filter_search_notification_type_count	Tipo Richiesta trovate: %@	Znaleziono typ zgłoszenia: %@	Notification Type found: %@	Поиск типа нотификации	
+search_filter_search_notification_type_placeholder	Ricerca Tipo Richiesta	Wyszukaj typ zgłoszenia	Search Notification Type	Поиск типа нотификации	
+search_filter_search_page_title_effect	Cerca effetto	Wynik wyszukiwania	Search effect	Поиск эффекта	
+search_filter_search_effect_count	Effetti possibili: %@	Możliwe skutki: %@	Effects found: %@	Возможные эффекты: %@	
+search_filter_search_effect_placeholder	Ricerca effetto	Wyszukiwanie efektów	Effect search	Поиск эффекта	
+search_filter_search_page_title_work_center	Cerca officina	Wybierz grupę roboczą	Search workcenter	Поиск рабочего места	
+search_filter_search_work_center_count	Numero officine trovate: %@	Liczba znalezionych grup roboczych: %@	Number of Work Centers found: %@	Поиск рабочего места	
+search_filter_search_work_center_placeholder	Ricerca Officina Competente	Wyszukiwanie w grupie roboczej	Workcenter search	Поиск рабочего места	
+search_filter_search_page_title_coding	Cerca codifica	Wybierz kod	Search coding	Поиск кода	
+search_filter_search_coding_count	Codifica trovata: %@	Znaleziono kod: %@	Coding found: %@	Код	
+search_filter_search_coding_placeholder	Cerca codifica	Search coding	Search coding	Search coding	
+search_filter_search_page_title_maintenance_activity_type	Cerca tipo di attività	Wybierz typ aktywności	Search activity type	Поиск по виду деятельности	
+search_filter_search_main_act_type_count	Tipo di attività trovati: %@	Znaleziono rodzaj pracy technicznej: %@	Activity Type found: %@	Поиск типа деятельности	
+search_filter_search_maintenance_activity_type_placeholder	Cerca tipo di attività	Search activity type	Search activity type	Search activity type	
+search_filter_search_page_title_equipment	Cerca Equipment	Wybierz urządzenie	Search equipment	Поиск оборудования	
+search_filter_search_equipment_count	Equipment (%@)	Urządzenie (%@)	Equipment (%@)	Оборудование (%@)	
+search_filter_search_page_title_PMActType	Cerca Tipo di Attività	Search activity type	Search activity type	Search activity type	
+search_filter_search_PMActType_count	Tipo di Attività (%@)	Typ pracy (%@)	Activity Type (%@)	Тип деятельности (%@)	
+search_filter_search_PMActType_placeholder	Cerca Tipo di Attività	Search activity type	Search activity type	Search activity type	
+search_filter_search_page_title_craftsman	Cerca Manutentore	Wyszukaj technika	Search Craftsman	Поиск технического специалиста	
+search_filter_search_craftsman_count	Manutentore (%@)	Technik (%@)	Craftsman (%@)	Технический специалист (%@)	
+search_filter_search_craftsman_placeholder	Cerca Manutentore	Search Craftsman	Search Craftsman	Search Craftsman	
+search_filter_search_page_title_spare_part	Cerca Pezzo di Ricambio	Wybierz część zamienną	Search spare parts	Поиск материала	
+search_filter_search_spare_part_placeholder	Cerca Pezzo di Ricambio	Search spare parts	Search spare parts	Search spare parts	
+search_filter_search_spare_part_count	Pezzo di Ricambio (%@)	Części zamienne (%@)	Spare Parts (%@)	Поиск запчасти (%@)	
+search_filter_search_page_title_work_order	Cerca Ordine di Manutenzione	Wybierz zlecenie pracy	Search Work Order	Поиск ордера	
+search_filter_search_work_order_placeholder	Cerca Ordine di Manutenzione	Search Work Order	Search Work Order	Search Work Order	
+search_filter_search_work_order_count	Ordine di Manutenzione (%@)	Zlecenie pracy (%@)	Work Order (%@)	Ордер	
+search_filter_search_page_title_workorder_type	Cerca tipo di ordine	Wybierz typ zlecenia pracy	Search WO type	Поиск по типу ордера	
+search_filter_search_workorder_type_count	Tipo di ordine trovati: %@	Znaleziono typ zlecenia pracy: %@	WO Type found: %@	Поиск по типу ордера	
+search_filter_search_workorder_type_placeholder	Cerca tipo di ordine	Search WO type	Search WO type	Search WO type	
+search_filter_search_page_title_org_struct	Cerca utente	Wybierz użytkownika	Search user	Поиск по пользователю	
+search_filter_search_org_struct_count	Utenti trovati: %@	Dostępni użytkownicy: %@	Users found: %@	Поиск пользователей:	
+search_filter_search_org_struct_placeholder	Ricerca utente	Wyszukiwanie użytkowników	User search	Поиск пользователя	
+search_filter_search_page_title_code_group	Cerca Code Group	Wybierz grupę planowania	Search Code Group	Поиск группы кодов	
+search_filter_search_code_group_count	Code Group trovati: %@	Znaleziono grupę kodów: %@	Code Group found: %@	Поиск группы кодов	
+search_filter_search_code_group_placeholder	Ricerca code group	Wyszukiwanie grupy kodów	Code group search	Поиск группы кодов	
+search_filter_search_page_title_code	Cerca Code	Wybierz kod	Search code	Поиск кода	
+search_filter_search_code_count	Code trovati: %@	Znaleziono kod: %@	Code found: %@	Код	
+search_filter_search_code_placeholder	Ricerca code	Wyszukiwanie kodu	Code search	Поиск кода	
+search_filter_search_page_title_damage	Cerca modo di Guasto	Niepowodzenia wyszukiwania	Search Failure Mode	Поиск повреждения	
+search_filter_search_damage_count	Modi di Guasto trovati: %@	Znalezione tryby awarii: %@	Failure Modes found: %@	Поиск повреждения:	
+search_filter_search_damage_placeholder	Ricerca modo di Guasto	Wyszukiwanie trybu awarii	Failure mode search	Поиск повреждения	
+search_filter_search_page_title_cause	Cerca Causa	Wynbierz powód	Search cause	Поиск причин	
+search_filter_search_cause_count	Cause trovate: %@	Znajdź przyczynę: %@	Causes found: %@	Поиск причин	
+search_filter_search_cause_placeholder	Ricerca causa	Wyszukiwanie przyczyn	Search cause	Поиск причины	
+search_filter_search_page_title_maintainability	Cerca Manutenibilità	Szukaj w utrzymaniu ruchu	Search Maintainability	Ремонтнопригодность	
+search_filter_search_maintainability_count	Manutenibilità trovati: %@	Znaleziona konserwacja: %@	Maintainability found: %@	Обоснование*	
+search_filter_search_maintainability_placeholder	Ricerca Manutenibilità	Wyszukiwanie w zakresie utrzymania	Maintainability Search	Поиск обоснования	
+search_filter_search_page_title_damage_group	Cerca modo di Guasto	Search Failure Mode	Search Failure Mode	Search Failure Mode	
+search_filter_search_damage_group_count	Modi di Guasto trovati: %@	Failure Modes found: %@	Failure Modes found: %@	Failure Modes found: %@	
+search_filter_search_damage_group_placeholder	Ricerca modo di Guasto	Failure mode search	Failure mode search	Failure mode search	
+search_filter_search_page_title_cause_group	Cerca Causa	Search cause	Search cause	Search cause	
+search_filter_search_cause_group_count	Cause trovate: %@	Causes found: %@	Causes found: %@	Causes found: %@	
+search_filter_search_cause_group_placeholder	Ricerca causa	Search cause	Search cause	Search cause	
+search_filter_search_page_title_activity_group	Cerca Attività	Wybierz aktywność	Search activity %@	Поиск действий	
+search_filter_search_activity_group_count	Attività trovate: %@	Znalezione działania: %@	Found activities	Поиск действий	
+search_filter_search_activity_group_placeholder	Ricerca attività	Wyszukiwanie aktywności	Activity search	Поиск действий	
+search_filter_search_page_title_activity	Cerca Attività	Search activity	Search activity	Search activity	
+search_filter_search_activity_count	Attività trovate: %@	Found activities %@	Found activities %@	Found activities %@	
+search_filter_search_activity_placeholder	Ricerca attività	Activity search	Activity search	Activity search	
+search_filter_search_page_title_delivery_place	Punto di scarico	Punkt dostawy	Delivery point	Поставка*	
+search_filter_search_delivery_place_placeholder	Cerca punto di scarico	Wyszukaj punkt dostawy	Search Delivery Point	Поиск поставки	
+search_filter_search_delivery_place_count	Punti di scarico trovati: %@	Znalezione punkty dostawy: %@	Delivery points found: %@	Поиск поставки	
+search_filter_search_page_title_feedback	Cerca Esito 	Wynik wyszukiwania	Search result	Поиск результата	
+search_filter_search_feedback_count	Esiti trovati: %@	Znalezione rezultaty: %@	Results found: %@	Возможные результаты:	
+search_filter_search_feedback_placeholder	Cerca esito	Search result	Search result	Search result	
+work_order_creation_sap_notification	Richiesta SAP	Zgłoszenie z SAP	SAP Notification	SAP нотификация	
+work_order_creation_sap_notification_detail_equipment_title	Equipment	Equipment	Equipment	Equipment	
+work_order_creation_sap_notification_detail_priority_title	Priorità	Priority	Priority	Priority	
+work_order_creation_sap_notification_detail_reported_by_title	Richiesto da	Reported by	Reported by	Reported by	
+work_order_creation_sap_notification_detail_header_title	Dettagli	Detale	Details	Подробности	
+work_order_creation_new_notification	Nuova Richiesta	Nowe zgłoszenie	New Notification	Новый ордер	
+work_order_creation_assigned_notification	Richiesta Assegnata	Zgłoszenie przypisane	 Notification assigned	Нотификация назначена	
+work_order_creation_assigned_work_order	Dettaglio Ordine Assegnato	Szczegóły przypisanego zlecenia pracy	WO Assigned details	Подробности назначенного ордера	
+work_order_creation_push_info_management_page_title	Gestione Push Info	Zarządzanie informacjami pulpitu	Push Info Management	Управление Push информацией	
+work_order_creation_push_info_management_button_title_new	Assegna e crea work order	Przypisz do mnie i utwórz zlecenie pracy	Assign to me and create WO	Создать ордер и назначить его себе	
+work_order_creation_push_info_management_button_title_assigned	Crea work order	Tworzenie zlecenia pracy	WO creation	Создание ордера	
+work_order_creation_page_title	Creazione Ordine - Dati Generali	Tworzenie zlecenia pracy - Dane ogólne	WO Creation - General Data	Основные данные	
+work_order_creation_equipment	Equipment	Equipment	Equipment	Equipment	
+work_order_creation_equipment_mandatory	Equipment*	Equipment*	Equipment*	Equipment*	
+work_order_creation_functional_location	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+work_order_creation_functional_location_mandatory	Sede Tecnica*	Functional Location*	Functional Location*	Functional Location*	
+work_order_creation_inventory_number	Numero NT	Inventory number	Inventory number	Inventory number	
+work_order_creation_inventory_number_mandatory	Numero NT*	Inventory number*	Inventory number*	Inventory number*	
+work_order_creation_notification_type	Tipo di Richiesta	Typ zgłoszenia	Notification Type	Тип нотификации	
+work_order_creation_notification_type_mandatory	Tipo di Richiesta*	Typ zgłoszenia*	Notification Type*	Notification Type*	
+work_order_creation_type	Tipo di Ordine	Typ zlecenia pracy	WO Type	Тип ордера	
+work_order_creation_type_mandatory	Tipo di Ordine*	Typ zlecenia pracy*	WO Type*	WO Type*	
+work_order_creation_short_text_placeholder	Descrizione della richiesta	Notification description	Notification description	Notification description	
+work_order_creation_short_text_placeholder_mandatory	Descrizione della richiesta*	Notification description*	Notification description*	Notification description*	
+work_order_creation_required_restart	Inizio Manut.	Malfunction Start	Malfunction Start	Malfunction Start	
+work_order_creation_required_restart_mandatory	Inizio Manut.*	Malfunction Start*	Malfunction Start*	Malfunction Start*	
+work_order_creation_reportedby	Richiesto da	Reported by	Reported by	Reported by	
+work_order_creation_reportedby_mandatory	Richiesto da*	Reported by*	Reported by*	Reported by*	
+work_order_creation_priority	Priorità	Priority	Priority	Priority	
+work_order_creation_priority_mandatory	Priorità*	Priority*	Priority*	Priority*	
+work_order_creation_long_text_placeholder	Note aggiuntive	Additional Notes	Additional Notes	Additional Notes	
+work_order_creation_long_text_placeholder_mandatory	Note aggiuntive*	Additional Notes*	Additional Notes*	Additional Notes*	
+work_order_creation_pmact_type	Tipo di Attività	Activity Type	Activity Type	Activity Type	
+work_order_creation_pmact_type_mandatory	Tipo di Attività*	Activity Type*	Activity Type*	Activity Type*	
+work_order_creation_attachments	Allega Foto	Dodaj zdjęcie	Attach picture	Прикрепить файл	
+work_order_creation_required_information	*indica un campo obbligatorio	* Wymagane pole	* Required field	* Required field	
+work_order_creation_footer_button_title	Salva	Save	Save	Save	
+push_info_item_assigned_notification	Notifica Assegnata	Przypisano zgłoszenie	Notification Assigned	Нотификация назначена	
+push_info_item_new_notification	Nuova Notifica	Nowe zgłoszenie	New Notification	Новая нотификация	
+push_info_item_assigned_work_order	Ordine Assegnato	Przypisane zlecenie pracy	WO Assigned	Ордер назначен	
+push_info_item_confirm_restart	Conferma Ripartenza	Restart confirmation	Restart confirmation	Restart confirmation	
+push_info_item_confirm_restart_body	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	Zgłoszenie zostało zrealizowane. Komunikat potwierdza wykonanie naprawy i zakończenie zgłoszenia	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	Нотификация была обработана технической службой. После подтверждения этого сообщения выполненный ремонт утверждается и нотификация закрывается.	
+change_equipment_page_title	Creazione Ordine - Cambio Equipment	Tworzenie zlecenia pracy - Zmiana urządzenia	WO Creation - Change equipment	Изменить оборудование	
+change_equipment_equipment	Vecchio Equipment*	Stare urządzenie*	Old Equipment*	Старое оборудование*	
+change_equipment_new_equipment	Equipment*	Equipment	Equipment	Equipment	
+change_equipment_placeholder_search	Cerca Equipment	Search equipment	Search equipment	Search equipment	
+change_equipment_required_information	* indica un campo obbligatorio	* Wymagane pole	* Required field	* Required field	
+change_notification_type_page_title	Creazione Ordine - Cambio Tipo	Tworzenie zlecenia pracy — zmiana typu pracy	WO Creation - Type Change	Тип ордера	
+change_notification_type_field_notification_type	Tipo Richiesta*	Notification Type*	Notification Type*	Notification Type*	
+change_notification_type_field_new_notification_type	Nuovo Tipo Richiesta*	Nowy typ zgłoszenia*	New Notification Type*	Новый тип нотификации*	
+change_notification_type_field_new_workorder_type	Nuovo Tipo Ordine	Nowy typ zlecenia pracy	New WO Type	Новый тип ордера	
+change_notification_type_placeholder_search	Cerca Tipo Richiesta	Search Notification type	Search Notification type	Search Notification type	
+change_notification_type_required_information	* indica un campo obbligatorio	* Wymagane pole	* Required field	* Required field	
+work_order_details_page_title	Ordine di Manutenzione - Salvato	Zlecenie pracy — zapisane	Work Order - Saved	Подробности ордера	
+work_order_details_work_order_id	Ordine di Manutenzione	Work Order	Work Order	Work Order	
+work_order_details_equipment	Equipment	Equipment	Equipment	Equipment	
+work_order_details_functional_location	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+work_order_details_inventory	Numero NT	Inventory number	Inventory number	Inventory number	
+work_order_details_button_close	Pagina Iniziale	Homepage	Homepage	Homepage	
+work_order_details_toast_message	Ordine di Manutenzione creato	Utworzono zlecenie pracy	Work Order created	Ордер создан	
+work_order_details_toast_message_offline	Dato salvato in locale	Data saved locally	Data saved locally	Data saved locally	
+notification_list_page_title	Lista Richieste Aperte	Otwórz listę zgłoszeń	Notification list	Список нотификаций	
+notification_list_page_title_confirm_restart	Richieste da confermare	Prośby do potwierdzenia	Requests to be confirmed	Запросы на подтверждение	
+notification_list_table_section_header	Richieste Aperte (%@)	Otwórz zgłoszenia (%@)	Open Notifications (%@)	Нотификации (%@)	
+notification_list_table_filter_button	Ricerca Avanzata	Wyszukiwanie zaawansowane	Advanced search	Расширенный поиск	
+notification_list_search_bar_placeholder	Cerca richieste	Wybierz zgłoszenia	Search notification	Поиск нотификаций	
+notification_list_notification_field	Richiesta	Notification	Notification	Notification	
+notification_list_short_text_field	Descrizione della richiesta	Short text	Short text	Short text	
+notification_list_type_field	Tipo di richiesta	Notification Type	Notification Type	Notification Type	
+notification_list_work_order_field	Ordine di Manutenzione	Work Order	Work Order	Work Order	
+notification_list_equipment_field	Equipment	Equipment	Equipment	Equipment	
+notification_list_func_location_field	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+notification_list_notification_type_filter_title	Tipo:	Rodzaj:	Type:	Тип:	
+notification_list_equipment_filter_title	Equipment:	Urządzenie:	Equipment:	Оборудование:	
+notification_list_status_filter_title	Status:	Status:	Status:	Статус:	
+notification_list_work_order_type_filter_title	Ordine:	Zlecenie pracy:	Work Order:	Ордер:	
+notification_list_functional_location_filter_title	Sede Tecnica:	Lokalizacja funkcjonalna:	Functional Location:	Локация:	
+notification_list_assigned_to_me_filter_title	Assegnato a me	Przypisany do mnie	Assigned to me	Назначена мне	
+notification_list_search_for_label	Cerca per:	Szukaj:	Search for:	Поиск	
+notification_list_reported_by	Richiesto da	Reported by	Reported by	Reported by	
+notification_list_creation_date_hour	Data Creazione Richiesta	Creation Date	Creation Date	Creation Date	
+notification_list_workcenter	Officina competente	Workcenter	Workcenter	Workcenter	
+notification_list_toast_message_offline	I dati potrebbero non essere aggiornati	Dane mogą nie być aktualizowane	Data may not be updated	Данные не могут быть обновлены	
+notification_list_detail_page_title	Dettaglio Richiesta Aperta	Otwórz szczegóły zgłoszenia	Open notification details	Открыть подробности нотификации	
+notification_cell_new_status	Nuova	Nowy	New	Новая	
+notification_cell_assigned_status	Assegnata	Przypisany	Assigned	Назначена	
+filter_notification_right_button_title	Fine	End	End	End	
+filter_notification_view_title	Elenco Richieste - Ricerca	Lista zgłoszeń - Szukaj	Notification List - Search	Поиск нотификаций	
+filter_notification_notification_type_filter_value	Tipo di Richiesta	Notification Type	Notification Type	Notification Type	
+filter_notification_equipment_filter_value	Equipment	Equipment	Equipment	Equipment	
+filter_notification_status_filter_value	Stato	Stan	Status	Статус	
+filter_notification_work_order_type_filter_value	Tipo di ordine	WO Type	WO Type	WO Type	
+filter_notification_functional_location_filter_value	Sede tecnica	Functional Location	Functional Location	Functional Location	
+filter_notification_work_order_assigned_filter_value	Assegnato a me	Assigned to me	Assigned to me	Assigned to me	
+filter_notification_selected_text	 selezionati	wybrany	selected	Выбранно	
+manage_mtce_view_title	Pagina Iniziale - Manutenzione	Strona główna - Utrzymanie ruchu	Homepage - Maintenance	Стартовый экран - Техническое обслуживание	
+manage_mtce_reservation	Impegno Materiale	Rezerwacja	Reservation	Управление резервированием	
+manage_mtce_time_declaration	Nuova Assegnazione	Nowe przypisanie	New Assignment	Новое назначение	
+manage_mtce_tech_summary	Consuntivazione	Podsumowanie techniczne	Technical summary	Техническое заключение	
+manage_mtce_forward	Richiesta Supporto	Przekaż	Forward	Переслать	
+manage_mtce_document_list	Lista Attività	Lista aktywności	Activity list 	Список действий	
+push_info_management_rmt_alert_controller_title	Vuoi rifiutare la richiesta?	Czy chcesz odrzucić zgłoszenie?	Do you want to reject the notification?	Вы хотите отклонить нотификацию?	
+push_info_management_rmt_alert_controller_left_button	No	No	No	No	
+push_info_management_rmt_alert_controller_right_button	Si	Yes	Yes	Yes	
+push_info_work_order_management_assign_page_title	Gestione OdM	Zarządzanie zleceniami pracy	WO Management	Управление ордером	
+push_info_work_order_management_assign_sap_notification	Richiesta SAP	SAP Notification	SAP Notification	SAP Notification	
+push_info_work_order_management_assign_work_order	Ordine di Manutenzione	Work Order	Work Order	Work Order	
+push_info_work_order_management_footer_button_title	Conferma	Confirm	Confirm	Confirm	
+push_info_work_order_management_detail_equipment_title	Equipment	Equipment	Equipment	Equipment	
+push_info_work_order_management_detail_text_title	Descrizione della richiesta	Short text	Short text	Short text	
+push_info_work_order_management_detail_reported_by_title	Richiesto da	Reported by	Reported by	Reported by	
+push_info_work_order_management_detail_functional_location_title	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+push_info_work_order_management_detail_header_title	Dettagli	Details	Details	Details	
+push_info_work_order_management_description	A new task has been created in your work list	Masz nowe zadanie	A new task has been created in your work list	Новое задание в вашем списке задач	
+forward_work_order_page_title	Richiesta Supporto	Przekaż do innej grupy zawodowej	Support Request	Переслять другому рабочему месту	
+forward_work_order_work_order	Ordine di Manutenzione*	Maintenance order*	Maintenance order*	Maintenance order*	
+forward_work_order_work_center	Officina*	Workshop*	Workshop*	Workshop*	
+forward_work_order_footer_button_title	Richiedi supporto	Request support	Request support	Request support	
+forward_work_order_all_items	Tutti (%@)	Wszystko (%@)	All (%@)	Все (%@)	
+forward_work_order_search_work_center_placeholder	Cerca Officina Competente	Search Competent Workshop	Search Competent Workshop	Search Competent Workshop	
+forward_work_order_search_filter_search_placeholder	Cerca Ordine di manutenzione	Search Maintenance Order	Search Maintenance Order	Search Maintenance Order	
+forward_work_order_confirm_toast_message	Ordine di manutenzione inoltrato	Zlecenie pracy przekazane	Maintenance order submitted	Ордер перенаправлен	
+forward_work_order_select_work_order_page_title	Seleziona OdM	Select Maintenance Order	Select Maintenance Order	Select Maintenance Order	
+forward_work_order_assign_cell_title	Ordine	Zlecenie pracy	Order	Order	
+notification_new_status	NUOVA	NEW	NEW	NEW	
+notification_assigned_status	ASSEGNATA	ASSIGNED	ASSIGNED	ASSIGNED	
+notification_reject_status	RIFIUTATA	ODRZUCONE	REJECTED	ОТКЛОНЕННО	
+notification_closed_status	CHIUSA	ZAMKNIĘTE	CLOSED	ЗАКРЫТО	
+notification_filed_status	ARCHIVIATA	Wypełniony	FILED	Подтвержден запуск	
+notification_dummy_status	GENERICO	Fikcyjny	DUMMY	DEMO	
+notification_status_assigned_to_me	A ME	Dla mnie	TO ME	назначно мне	
+work_order_assigned_to_me_status	ASSEGNATA A ME	Przypisany do mnie	ASSIGNED TO ME	Назначен мне	
+work_order_not_assigned_to_me_status	NON ASSEGN. A ME	NIE PRZYPISANE DO MNIE	NOT ASSIGNED TO ME	НЕ НАЗНАЧЕНО МНЕ	
+select_notification_status_page_title	Seleziona Stato	Wybierz status	Select Status	Выбрать статус	
+select_notification_status_table_section_header	Tutti gli stati (%@)	Wszystkie stany (%@)	All status (%@)	Все статусы (%@)	
+select_notification_status_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_notification_status_footer_button_title	Conferma Selezione	Wybór potwierdzenia	Confirmation Selection	Подтвердить	
+select_multiple_notification_type_page_title	Seleziona tipo di richiesta	Wybierz typ zgłoszenia	Select notification type	Выбрать тип нотификации	
+select_multiple_notification_type_table_section_header	Tutti i tipi di richiesta (%@)	Wszystkie typy zgłoszeń (%@)	Notification type: (%@)	Все типы нотификаций (%@)	
+select_multiple_notification_type_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_multiple_notification_type_footer_button_title	Conferma Selezione	Confirmation Selection	Confirmation Selection	Confirmation Selection	
+select_multiple_equipment_page_title	Seleziona equipment	Wybierz urządzenie	Select equipment	Выбрать оборудование	
+select_multiple_equipment_table_section_header	Tutti i tipi di equipment (%@)	Wszystkie typy urządzeń (%@)	Equipment found: (%@)	Все типы оборудования (%@)	
+select_multiple_equipment_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_multiple_equipment_footer_button_title	Conferma Selezione	Confirmation Selection	Confirmation Selection	Confirmation Selection	
+select_multiple_work_order_type_page_title	Seleziona tipo di ordine	Wybierz typ zlecenia pracy	Select WO type	Выбрать тип ордера	
+select_multiple_work_order_type_table_section_header	Tutti i tipi di ordine (%@)	Wszystkie typy zleceń pracy (%@)	All WO types (%@)	Все тип ордеров (%@)	
+select_multiple_work_order_type_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_multiple_work_order_type_footer_button_title	Conferma Selezione	Confirmation Selection	Confirmation Selection	Confirmation Selection	
+select_multiple_functional_location_page_title	Seleziona sede tecnica	Wybierz lokalizację funkcjonalną	Select Functional Location	Выбрать локацию	
+select_multiple_functional_location_table_section_header	Tutte le Sedi Tecniche (%@)	Wszystkie lokalizacje funkcjonalne (%@)	Functional Location: (%@)	Все локации (%@)	
+select_multiple_functional_location_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_multiple_functional_location_footer_button_title	Conferma Selezione	Confirmation Selection	Confirmation Selection	Confirmation Selection	
+multiple_selection_footer_button_title	Conferma selezionati	Wybrane potwierdzenie	Confirmation selected	Подтвердить	
+select_notification_status_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_notification_status_section_header	Tutti (%@)	All (%@)	All (%@)	All (%@)	
+barcode_filter_button_view_barcode_button_title	Codice a barre	Barcode	Barcode	Barcode	
+barcode_filter_button_view_filter_button_title	Filtri	Filters	Filters	Filters	
+create_reservation_page_title	Crea Impegno	Tworzenie rezerwacji	Reservation creation	Создание резерва	
+create_reservation_movement_type_title	Tipo Movimento*	Typ ruchu*	Movement Type*	Тип движения*	
+create_reservation_sap_work_order_title	Ordine di Manutenzione*	Zlecenie pracy*	WO	Ордер*	
+create_reservation_cost_center_title	Centro di Costo*	Cost center	Cost center	Cost center	
+create_reservation_footer_button_title	Compila lista materiali	Wypełnij listę materiałów	Fill out material list	Выбрать материал	
+create_reservation_discharge_point_title	Punto di scarico	Delivery point	Delivery point	Delivery point	
+create_reservation_discharge_point_title_mandatory	Punto di scarico*	Delivery point*	Delivery point*	Delivery point*	
+create_reservation_date_of_need	Data di bisogno	Data zapotrzebowania	Requirement Date	Необходимая дата	
+create_reservation_express_check	Express	Szybki	Express	Экспресс проверка резервирования	
+select_movement_type_page_title	Tipo di Movimento	Rodzaj ruchu	Movement Type	Тип движения	
+select_movement_type_table_section_header_view_item	Elementi (%@)	Elementy (%@)	Elements (%@)	Элементы (%@)	
+reservation_details_page_title	Dettagli Impegno	Szczegóły rezerwacji	Reservation details	Подробности резервирования	
+reservation_details_sap_reservation_title	Impegno SAP	Rezerwacja SAP	SAP Reservation	Подробности SAP резервирования	
+reservation_details_footer_button_title	Chiudi	Close	Close	Close	
+reservation_details_toast_message	Nuovo Impegno Creato	Utworzono nową rezerwację	New Reservation Created	Созданно новое резервирование	
+reservation_items_page_title	Impegno	Rezerwacja	Reservation	Позиции резервирования	
+reservation_items_add_button_title	Aggiungi elemento	Nowa pozycja	Add item	Добавить позицию	
+reservation_items_delete_button_title	Cancella elemento	Zmiana pozycji	Delete item	Удалить позицию	
+reservation_items_edit_button_title	Modifica elemento	Change item	Change item	Change item	
+reservation_items_table_section_header_view_item	Componenti (%@)	Przedmioty (%@)	Items (%@)	Позиции	
+reservation_items_footer_button_title	Salva e Stampa	Zapisz i wydrukuj	Save and Print	Сохранить и распечатать	
+reservation_items_title_items	Elemento %@	Pozycja %@	Item %@	Позиция	
+reservation_items_items_deleted_toast_message	Elementi cancellati	Usunięte składniki	Deleted items	Удаленные позиции	
+reservation_items_spare_part_title	Pezzo di Ricambio	Część zamienna	Spare part	Резервирование запчастей	
+reservation_items_text_title	Descrizione	Opis	Description	Описание	
+reservation_items_quantity_title	Quantità 	Ilość	Quantity 	Количество	
+reservation_items_unrestricted_title	Utilizzo libero	Do użycia	Free use	Свободное использование	
+reservation_items_quality_title	Qualità	Jakość	Quality 	Качество	
+reservation_items_wh_title	Magazzino	Magazyn	Warehouse	Технический склад	
+reservation_items_unit_title	Unità	Jednostka	Unity 	Название единицы	
+reservation_items_plant_title	Stabilimento	Zakład	Plant	Завод	
+add_reservation_item_right_button_title	Fine	End	End	End	
+add_reservation_item_page_title	Aggiungi Elemento	Add item	Add item	Add item	
+add_reservation_spare_part_title	Codice Materiale*	Spare part*	Spare part*	Spare part*	
+add_reservation_bom_title	BOM*	BOM	BOM*	Спецификация	
+add_reservation_text_title	Descrizione	Description	Description	Description	
+add_reservation_quantity_title	Q.tà da impegnare*	Quantity*	Quantity*	Quantity*	
+add_reservation_unrestricted_title	Q.tà in Utilizzo libero	Free use	Free use	Free use	
+add_reservation_quality_title	Q.tà in Controllo Qualità	Quality	Quality	Quality	
+add_reservation_wh_title	Magazzino	Warehouse	Warehouse	Warehouse	
+add_reservation_unit_title	Unità di Misura	Unit	Unit	Unit	
+add_reservation_plant_title	Stabilimento	Plant	Plant	Plant	
+add_reservation_longtext_title	Descrizione Estesa	Long Description	Long Description	Long Description	
+add_reservation_bom_quantity_title	Quantità BOM	Installed BOM	Installed BOM	Installed BOM	
+add_reservation_id_manufacturer_title	Codice costruttore	Manufacturer	Manufacturer	Manufacturer	
+add_reservation_note1_title	Nota 1	POTX1	POTX1	POTX1	
+add_reservation_note2_title	Nota 2	POTX2	POTX2	POTX2	
+add_reservation_quantity_reserved_title	Q.tà già Impegnata	Quantity Reserved	Quantity Reserved	Quantity Reserved	
+confirm_machine_restart_page_title	Conferma Ripartenza Macchina	Potwierdź start maszyny	Confirm Restart Machine	Подтвердить запуск машины	
+confirm_machine_restart_detail_work_order_type_title	Tipo di ordine	WO Type	WO Type	WO Type	
+confirm_machine_restart_detail_equipment_title	Equipment	Equipment	Equipment	Equipment	
+confirm_machine_restart_detail_functional_location_title	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+confirm_machine_restart_detail_reported_by_title	Richiesto da	Reported by	Reported by	Reported by	
+confirm_machine_restart_detail_notification_title	Richiesta	Notification	Notification	Notification	
+confirm_machine_restart_detail_notification_date_title	Data di inizio	Data rozpoczęcia	Start date	Дата рестарта	
+confirm_machine_restart_header_title	Ordine di Manutenzione	Work Order	Work Order	Work Order	
+confirm_machine_restart_description	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed	
+confirm_machine_restart_footer_button_title	Conferma Ripartenza	Restart confirmation	Restart confirmation	Restart confirmation	
+confirm_date_and_hour_page_title	Conferma data e ora	Potwierdź datę i godzinę	Confirm date and time	Подтвердить дату и время	
+confirm_date_and_hour_date_picker_title	Ripartenza	Restart	Restart	Подтверждение запуска оборудования	
+confirm_date_and_hour_toast_message_offline	Dato salvato in locale	Data saved locally	Data saved locally	Data saved locally	
+confirm_date_and_hour_toast_message	Ripartenza confermata	Restart potwierdzony	Restart confirmed	Запуск подтвержден	
+confirm_working_start_page_title	Daily WO List	Codzienna lista zleceń pracy	Daily WO List	Ежедневный список ордеров	
+confirm_working_start_cell_work_order_title	WO/Operation	Zlecenie pracy / Operacja	WO/Operation	Ордер / операция	
+confirm_working_start_cell_equipment_title	Equipment	Equipment	Equipment	Equipment	
+confirm_working_start_cell_reservation_tag	Reservation	Rezerwacja	Reservation	Резервирование	
+confirm_working_start_table_header_title	All (%@)	Wszysko %@	All (%@)	Все %@	
+confirm_working_start_table_header_title_selected	Selected (%@)	Wybrane (%@)	Selected (%@)	Выбрано (%@)	
+confirm_working_start_footer_button_title	Start	Początek	Start	Начало	
+time_declaration_page_title	Time Declaration	Deklaracja czasowa	Time Declaration	Декларация времени	
+time_declaration_stop_button_title	Stop	STOP	Stop	Окончание	
+time_declaration_break_button_title	Break	Przerwa	Break	Перерыв	
+time_declaration_work_order_title	SAP Work Order	Zlecenie pracy z SAP	SAP Work Order	SAP ордер	
+time_declaration_operation_title	Operation	Operacja	Operation	Операция	
+time_declaration_start_table_header_title	Ordini di Manutenzione (%@)	Zlecenia pracy (%@)	Work Orders (%@)	Ордеры (%@)	
+time_declaration_stop_success_toast_message	Lo stato dell'ordine di lavoro è stop	Status zlecenia pracy jest zatrzymany	The status of the work order is stopped	Статус ордера остановлен	
+time_declaration_break_success_toast_message	Lo stato dell'ordine di lavoro è pausa	Status zlecenia pracy jest czasowo wstrzymany	The status of the work order is paused	Статус ордера приостановлен	
+notification_management_page_title	Assegnazione Richiesta	Przypisanie zgłoszenia	Notification Assignment	Назначение нотификации	
+notification_management_assign_to_title	Assegna a	Przypisz do	Assign to	Назначить исполнителя	
+notification_management_reject_button_title	Rifiuta	Odrzuć	Reject	Отклонить	
+notification_management_assign_to_me_button_title	Assegna a me	Przypisz do mnie	Assign to me	Назначить себе	
+notification_management_show_work_order_button_title	Mostra info OdM	Show info WO	Show info WO	Show info WO	
+notification_management_assign_to_me_and_create_work_order_button_title	Assegna a me e crea ordine	Przypisz do mnie i utwórz zlecenie pracy	Assign to me and create WO	Создать ордер и назначить его себе	
+notification_management_create_wo_button_title	Crea ordine di manutenzione	Tworzenie zlecenia pracy	WO creation	Создание ордера	
+notification_management_confirm_button_title	Conferma Assegnazione	Potwierdź przypisanie	Confirm assignment	Подтвердить назначение	
+notification_management_toast_message_rejected	Richiesta rifiutata	Zgłoszenie odrzucone	Notification rejected	Нотификация отклонена	
+notification_management_toast_message_assigned	Assegnazione eseguita con successo	Przypisanie wykonane pomyślnie	Assignment carried out successfully	Назначение выполнено успешно	
+work_order_management_page_title	Gestione Ordine	Zarządzanie zleceniami pracy	WO Management	Управление ордером	
+work_order_management_page_title_show	Gestione Ordine	WO Management	WO Management	WO Management	
+work_order_management_sap_work_order	OdM	Zlecenie pracy	WO	WO	
+work_order_management_equipment	Equipment	Equipment	Equipment	Equipment	
+work_order_management_functional_location	Sede Tecnica	Functional Location	Functional Location	Functional Location	
+work_order_management_inventory_number	Numero NT	Inventory number	Inventory number	Inventory number	
+work_order_management_cost_center	Centro di costo	Cost center	Cost center	Cost center	
+work_order_management_notification_type	Tipo di richiesta	Notification Type	Notification Type	Notification Type	
+work_order_management_type	Tipo di ordine	WO Type	WO Type	WO Type	
+work_order_management_short_text_placeholder	Descrizione della richiesta	Short text	Short text	Short text	
+work_order_management_malfunction_start	Inizio Manut.	Malfunction Start	Malfunction Start	Malfunction Start	
+work_order_management_reportedby	Richiesto da	Reported by	Reported by	Reported by	
+work_order_management_notification_attachments	Allegati Richiesta	Załącznik do notyfikacji	Notification attachment	Вложенные файлы	
+work_order_management_priority	Priorità	Priority	Priority	Priority	
+work_order_management_long_text_placeholder	Note aggiuntive	Additional Notes	Additional Notes	Additional Notes	
+work_order_management_pmact_type	Tipo di Attività	Activity Type 	Activity Type 	Activity Type 	
+work_order_management_attachments	Allegati Richiesta/OdM	Notyfikacja/WO załącznik	Notification/WO attachment	Текущие вложения	
+work_order_management_assigned_button_title	Chiudi	Close	Close	Close	
+work_order_management_not_assigned_button_title					
+work_order_management_operation	Operazioni	Operacje	Operations	Операции	
+work_order_management_reservation	Impegni	Rezerwacje	Reservations	Резервирование	
+work_order_management_object_list	Oggetti	Obiekty	Objects	Объекты	
+documentation_master_data_page_title	Documentation/Master Data	Dokumentacja/Dane podstawowe	Documentation/Master Data	Документация/ Основные данные	
+documentation_master_data_search_equipment	Cerca Equipment	Search equipment	Search equipment	Search equipment	
+documentation_master_data_search_material	Cerca Materiale	Wybierz część zamienną	Search Material	Поиск матриала	
+documentation_master_data_search_functional_location	Cerca Sede Tecnica	Search Functional Location	Search Functional Location	Search Functional Location	
+documentation_master_data_view_documentation_master_data	Vedi Documentazione	Zobacz dokumentację	See Documentation	Смотри документацию	
+documentation_master_data_link_column_header	Link	Połącz	Link	Ссылка	
+documentation_master_data_document_type_column_header	Tipo Documento	Typ dokumentu	Document Type	Тип документа	
+documentation_master_data_document_column_header_spare_parts	Nr° Materiale	Materiał NR	Material NR	Номер материала	
+documentation_master_data_document_column_header_equipment	Nr° Equipment	Urządzenie nr	Equipment NR	Номер оборудования	
+documentation_master_data_version_column_header	Versione	Wersja	Version	Версия	
+documentation_master_data_description_column_header	Descrizione	Description	Description	Description	
+documentation_master_data_material_column_header	Materiale	Materiał	Material	Материал	
+documentation_master_data_description_column_header	Descrizione	Description	Description	Description	
+documentation_master_data_quantity_column_header	Quantità	Quantity 	Quantity 	Quantity	
+documentation_master_data_unit_column_header	Unità	Unity	Unity	Unity	
+documentation_master_data_long_text_column_header	Testo Lungo	Długi tekst	Long Text	Подробный текст	
+documentation_master_data_link_text	Visualizza	Wizualizacja	Visualize	Открыть	
+equipment_documentation_page_title	Dati Equipment	Dane urządzenia	Equipment data	Данные оборудования	
+equipment_documentation_documentation_section_header	Documentazione	Dokumentacja	Documentation	Основные данные оборудования	
+equipment_documentation_bom_section_header	BOM	BOM	BOM	Спецификация	
+equipment_documentation_manufacturer_data_section_header	Dati Produttore	Dane producenta	Manufacturer data	Данные производителя	
+equipment_documentation_position_data_section_header	Dati Posizione	Dane pozycji	Position data	Данные о местоположении	
+equipment_documentation_manufacturer	Produttore	Producent	Manufacturer	Производитель	
+equipment_documentation_manufacturer_model	Modello Produttore n°	Numer modelu producenta	Manufacturer model number	Номер модели производителя	
+equipment_documentation_year_of_construction	Anno di costruzione	Rok produkcji	Manufacture year	Год изготовления	
+equipment_documentation_serial_number	Numero seriale	Numer seryjny	Serial number	Серийный номер	
+equipment_documentation_plant	Impianto	Zakład	Plant	Завод	
+equipment_documentation_plant_section	Sezione impianto	Obszar zakładu	Plant section	Заводской сектор	
+documentation_page_title	Documentazione	Documentation	Documentation	Documentation	
+no_associated_documents	Nessun documento associato	Brak powiązanych dokumentów	No documents associated	не содержит документов	
+work_order_operations_page_title	Operazioni	Operations	Operations	Operations	
+work_order_operations_operation_number	Numero operazione:	Numer operacji:	Operation number:	Номер операции:	
+work_order_operations_operation_work_center	Centro di lavoro:	Grupa robocza:	Work center:	Рабочее место:	
+work_order_operations_operation_long_text	Descrizione:	Opis:	Description:	Полное описание:	
+work_order_operations_operation_long_text_2	Testo lungo:	Długi tekst:	Long Text:	Подробный текст:	
+work_order_operations_operation_status	Stato macchina:	Stan maszyny:	Machine condition:	Состояние машины:	
+work_order_reservations_page_title	Impegni	Reservations	Reservations	Reservations	
+work_order_reservations_component	Materiale:	Materiał:	Material:	Материал:	
+work_order_reservations_material_description	Descrizione materiale:	Opis materiału:	Material description:	Название материала	
+work_order_reservations_quantity	Quantità:	Ilość:	Quantity:	Количество:	
+work_order_reservations_unit_of_measure	Unità di misura:	Jednostka miary:	Unit of measurement:	Единица измерения:	
+work_order_reservations_reservation_per_request	Impegni per richiesta:	Rezerwacja do zgłoszenia	Reservation for notification	Резервирование	
+work_order_reservations_reservation	Impegno:	Rezerwacja:	Reservation:	Резервирование на ордер:	
+work_order_reservations_reservation_item	Posizione Impegno:	Pozycja rezerwacyjna:	Reservation position:	Позиция резервирования:	
+technical_summary_page_title	Consuntivazione Tecnica	Podsumowanie techniczne	Technical summary	Техническое заключение	
+technical_summary_footer_button_title	Salva e Chiudi	Zapisz i zamknij	Save and Close	Сохранить и закрыть	
+technical_summary_work_order_mandatory	Ordine di Manutenzione*	Work Order*	Work Order*	Work Order*	
+technical_summary_work_order	Ordine di Manutenzione	Work Order	Work Order	Work Order	
+technical_summary_work_order_type	Tipo di ordine	WO Type	WO Type	WO Type	
+technical_summary_operation_mandatory	Operazione*	Operacja*	Operation*	Операция*	
+technical_summary_operation	Operazione	Operacja	Operation	Операция	
+technical_summary_notification_mandatory	Richiesta*	Notification*	Notification*	Notification*	
+technical_summary_notification	Richiesta	Notification	Notification	Notification	
+technical_summary_required_end_mandatory	Fine Manut.*	Koniec zadania *	End of Maintenance*	Окончание ремонта*	
+technical_summary_required_end	Fine Manut.	Koniec zadania	End of Maintenance	Окончание ремонта	
+technical_summary_equipment_affected_mandatory	Equipment Impattato*	Powiązane urządzenia *	Equipment Affected*	Пострадавшее оборудование*	
+technical_summary_equipment_affected	Equipment Impattato	Powiązane urządzenia	Equipment Affected	Пострадавшее оборудование	
+technical_summary_long_text_placeholder	Note Aggiuntive	Additional Notes	Additional Notes	Additional Notes	
+technical_summary_breakdown	Fermo Macchina	Breakdown	Breakdown	Breakdown	
+technical_summary_effect	Effetto	Effect	Effect	Effect	
+technical_summary_reported_by	Richiesto da	Reported by	Reported by	Reported by	
+technical_summary_damage_mandatory	Modo di Guasto*	Tryb awaryjny*	Failure mode*	Повреждение*	
+technical_summary_damage	Modo di Guasto	Tryb awaryjny	Failure mode	Повреждение	
+technical_summary_damage_description_placeholder	Inserisci la descrizione del guasto	Podaj opis przyczyny	Enter cause description	Описание повреждения*	
+technical_summary_damage_description_placeholder_mandatory	Inserisci la descrizione del guasto*	Podaj opis przyczyny*	Enter cause description*	Введите описание причины*	
+technical_summary_cause_mandatory	Causa*	Przyczyna*	Cause	Причина поломки*	
+technical_summary_cause	Causa	Przyczyna	Cause	Причина поломки	
+technical_summary_cause_description_placeholder	Inserisci la descrizione della causa	Podaj opis przyczyny	Enter cause description	Описание причины*	
+technical_summary_cause_description_placeholder_mandatory	Inserisci la descrizione della causa*	Podaj opis przyczyny*	Enter cause description*	Enter cause description*	
+technical_summary_maintainability_mandatory	Manutenibilità*	Konserwacja*	Maintainability*	Maintainability*	
+technical_summary_maintainability	Manutenibilità	Konserwacja	Maintainability	Обоснование	
+technical_summary_activities_mandatory	Attività*	Czynność*	Activity*	Activity*	
+technical_summary_activities	Attività	Czynność	Activity	Техническое заключение	
+technical_summary_toast_message_offline	Dato salvato in locale. %@	Utworzono podsumowanie techniczne. %@	Data saved locally. %@	Data saved locally. %@	
+technical_summary_toast_message	Consuntivazione effettuata correttamente. %@	Utworzono podsumowanie techniczne. %@	Technical summary created. %@	Техническое заключение создано. %@	
+technical_summary_activities_selected	%@ elementi	%@ Składniki	%@ elements	Операции	
+technical_summary_operation_feedback	Esito dell'operazione	Wynik prac	Operation's result	Результат операций	
+technical_summary_no_operation_feedback	Nessun elemento	Żadnych przedmiotów	No items	Нет позиций	
+technical_summary_operation_feedback_value	%@ elementi	%@ elements	%@ elements	%@ elements	
+technical_summary_assign_new_order	Assegnati ad un altro ordine	Assigned to another order	Assigned to another order	Assigned to another order	
+select_equipment_affected_page_title	Equipment Impattato	Equipment Affected	Equipment Affected	Equipment Affected	
+select_equipment_affected_search_placeholder	Cerca Equipment	Search equipment	Search equipment	Search equipment	
+select_equipment_affected_equipment_found	Equipment trovati: %@	Equipment found: %@	Equipment found: %@	: %@	
+my_work_list_page_title	Lista Attività	Activity list 	Activity list 	Activity list 	
+my_work_list_search_placeholder	Cerca richiesta	Wybierz zgłoszenie	Search notification	Поиск нотификации	
+my_work_list_operation_field	Operazione	Operation	Operation	Operation	
+my_work_list_priority_field	Priorità	Priority	Priority	Priority	
+my_work_list_work_order_type	Tipo di ordine	WO Type	WO Type	WO Type	
+select_equipment_or_spareparts_page_title	Aggiungi BOM	Dodaj BOM	Add BOM	Добавить спецификацию	
+select_equipment_or_spareparts_header_equipment	Equipment Selezionato: %@	Wybrane urządzenie:	Selected Equipment: %@	Выбранное оборудование:	
+select_equipment_or_spareparts_spareparts_found	Parti di ricambio trovate: %@	Znalezione części zamienne: %@	Spare parts found: %@	Поиск запчастей:	
+select_equipment_or_spareparts_equipment_found	Equipment trovati: %@	Equipment found: %@	Equipment found: %@	Equipment found: %@	
+select_equipment_or_spareparts_search_placeholder	Cerca Equipment/Parti di Ricambio	Wybierz urządzenie / część zamienną	Search equipment/spare parts	Поиск оборудования/ запчастей	
+log_out_alert_view_title	Sei sicuro di voler uscire?	Czy na pewno chcesz się wylogować?	Are you sure you want to log out?	Уверены, что хотите выйти из приложения?	
+log_out_alert_view_left_button	No	No	No	No	
+log_out_alert_view_right_button	Si	Yes	Yes	Yes	
+activity_items_page_title	Attività	Activity	Activity	Activity	
+activity_items_add_button_title	Aggiungi attività	Dodaj aktywność	Add activity	Добавить активность	
+activity_items_delete_button_title	Cancella attività	Zmiana czynności	Change activity	Изменить действие	
+activity_items_table_section_header_view_item	Attività (%@)	Czynność (%@)	Activity (%@)	Техническое заключение	
+activity_items_footer_button_title	Conferma	Confirm	Confirm	Confirm	
+activity_items_activity_cell_title	Attività	Activity	Activity	Activity	
+activity_items_activity_cell_description	Nessuna descrizione	Brak opisu	No description	Нет описания	
+add_activity_item_page_title	Aggiungi Attività	Add activity	Add activity	Add activity	
+add_activity_item_activity_title	Attività	Activity	Activity	Activity	
+add_activity_item_activity_description_placeholder	Inserisci la descrizione dell'attività	Wpisz opis pracy	Enter the activity description 	Описание действий	
+operation_feedback_page_title	Esito dell'operazione	 Operation's result	 Operation's result	 Operation's result	
+operation_feedback_item_title	Operazione	Operation	Operation	Operation	
+operation_feedback_operation_title	Operation	Operation	Operation	Operation	
+operation_feedback_status_title	Stato Macchina	Stan maszyny	Machine condition	Состояние машины	
+operation_feedback_feedback_title	Esito dell'operazione	 Operation's result	 Operation's result	 Operation's result	
+operation_feedback_feedback_selected	%@ selezionati	%@ Wybrany	%@ selected	%@ Выбраны	
+operation_feedback_feedback_not_selected	Nessun esito	Brak wyników	No result	Не выбран результат операции	
+select_multiple_feedback_page_title	Seleziona Esito	Wybierz wynik	Select result	Выбрать результат операции	
+select_multiple_feedback_table_section_header	Tutti gli esiti (%@)	Wszystkie wyniki (%@)	All results (%@)	Все результаты (%@)	
+select_multiple_feedback_section_header_selected	Selezionati (%@)	Selected (%@)	Selected (%@)	Selected (%@)	
+select_multiple_feedback_footer_button_title	Conferma Selezione	Confirmation Selection	Confirmation Selection	Confirmation Selection	
+operation_feedback_status_out_of_order	Fuori servizio	Wykonano	Off-duty	Не в работе	
+operation_feedback_status_running	In servizio	Aktywny	On duty	В работе	
+mobile_reservation_status_now	Al momento	W tym momencie	At the moment	В данный момент	
+mobile_reservation_status_never	Mai	Nigdy	Never	Никогда	
+show_attachments_page_title	Allegati	Załączniki	Attachments	Вложенные файлы	
+show_attachments_close_button_title	Chiudi	Close	Close	Close	
+show_attachments_attachments_component	Allegati (%d)	Attachments (%d)	Attachments (%d)	Attachments (%d)	
+show_attachments_no_content_label	Nessuna Documentazione Disponibile	Brak dostępnej dokumentacji	No Documentation Available	Нет доступной документации	
+search_equipment_documentation_barcode_button_title	Cerca per Codice a Barre	Wybierz kod kreskowy	Search Barcode	Поиск по штрих-коду	
+search_equipment_documentation_confirm_button_title	Conferma	Confirm	Confirm	Confirm	
+search_equipment_documentation_page_title	Cerca Equipment	Search equipment	Search equipment	Search equipment	
+search_equipment_documentation_search_bar_placeholder_text	Cerca per numero equipment	Wybierz urządzenie	Search equipment	Поиск оборудования	
+spare_part_details_page_title	Descrizione Pezzo di Ricambio	Opis części zamiennych	Spare parts description	Название запчасти	
+spare_part_details_confirm_button	View Doc/Master Data	Wyświetl dokumenty/dane główne	View Doc/Master Data	Основные данные	
+spare_part_details_spare_part_title	Pezzo di Ricambio	Spare part	Spare part	Spare part	
+spare_part_details_material_type_title	Tipo materiale	Typ materiału	Material type	Тип материала	
+material_documentation_page_title	Dati Materiale	Dane materiałowe	Material data	Данные материала	
+material_documentation_documentation_section_header	Documentazione	Documentation	Documentation	Documentation	
+object_list_page_title	Oggetti	Objects	Objects	Objects	
+object_list_equipment	Equipment:	Equipment:	Equipment:	Equipment:	
+object_list_equipment_desc	Equipment desc.:	Opis urządzenia:	Equipment description:	Описание оборудования:	
+object_list_functional_location	Sede Tecnica:	Functional Location:	Functional Location:	Functional Location:	
+object_list_functional_location_desc	Desc. Sede Tecnica:	Opis lokalizacji funkcjonalnej:	Functional Location description:	Название локации	
+object_list_short_text	Desc. richiesta	Opis zgłoszenia	Notification description	Название нотификации	
+object_list_footer_button_title	Salva	Save	Save	Save	
+object_list_save_not_availabe_offline	Salvataggio non disponibile offline	Saving not available offline	Saving not available offline	Saving not available offline	
+assignment_detail_page_title	Dettaglio manutentore	Craftman detail	Craftman detail	Craftman detail	
+assignment_detail_active_assignment	Assegnazione Attuale	Current assignment	Current assignment	Current assignment	
+assignment_detail_received_assignment	Assegnazioni Ricevute	Received Assignment	Received Assignment	Received Assignment	
+assignment_detail_button_confirm	Conferma assegnazione	Confirm assignment	Confirm assignment	Confirm assignment	
+assignment_detail_assigned_by	Assegnato da	Assigned by	Assigned by	Assigned by	
+assignment_detail_date_and_hour	Data e ora	Date and hour	Date and hour	Date and hour	
+assignment_detail_order_type	Tipo di OdM	WO type	WO type	WO type	

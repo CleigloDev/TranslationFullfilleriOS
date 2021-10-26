@@ -1,0 +1,869 @@
+//MARK: - Temporary
+
+"user_second_field" = "Нет ордера";
+
+//MARK: - General
+
+"not_available" = "Недоступно";
+"select_all_button" = "Выбрать всё";
+"deselect_all_button" = "Отменить выбор всего";
+"required_information" = "Требуемое поле";
+"filters_button" = "Фильтры";
+"back_button" = "Назад";
+"cancel_button" = "Отмена";
+"done_button" = "Далее";
+"offline_connectivity" = "Офлайн";
+"attention_title" = "ВНИМАНИЕ";
+"connection_unavailable" = "Подключение не доступно";
+"no_element" = "Нет доступных позиций";
+"attachments_upload_success" = "Файлы успешно загружены";
+"software_version" = "Версия %@";
+"json_decode_failure" = "Failed to decode JSON!";
+
+//MARK: - Ferrero Error
+
+"barcode_scanner_error" = "Ошибка. Невозможно получить результат сканирования";
+"barcode_scanner_camera_error" = "Невозможно получить доступ к камере";
+"barcode_scanner_flash_error" = "Невозможно получить доступ к вспышке";
+"user_info_loading_failure" = "Ваша информация была загружена некорректно";
+"unavailable_data_service" = "Произошла ошибка";
+"offline_odata_store_error" = "Ошибка. Невозможно создать в режиме офлайн";
+"camera_access_denied" = "Вы запретили доступ к камере, чтобы включить эту функцию, перейдите в настройки устройства.";
+"attachments_presentation_failure" = "Ошибка при загрузке вложения";
+"push_notification_permission_denied" = "Push-информация отключена для этого приложения, чтобы включить перейдите в настройки устройства.";
+"offline_store_synch_running" = "Выполняется синхронизация данных. Повторите попытку позже";
+"item_not_found" = "Ошибка загрузки информации";
+"old_notification" = "Действике*";
+"notification_parsing_failure" = "Не удалось получить информацию для этого запроса, обратитесь к своему рабочему списку, чтобы просмотреть его.";
+"feature_not_available_offline_error" = "Эта функция недоступна в офлайн";
+"max_item_reached" = "Вы можете выбрать до 5 элементов!";
+"material_number_not_found" = "Номер материала не найден";
+"invalid_document_link_error" = "Ссылка на документ недействительна";
+"already_assigned" = "Запрос уже принят пользователем";
+"already_assigned_to" = "Request already taken on by a user %@";
+"user_logout_failed" = "Ошибка при выходе из приложения, попробуйте еще раз!";
+"logout_offline_error" = "Вы в режиме офлайн, если Вы хотите войти, вернитесь в онлайн режим";
+"notification_assigned_status_closed" = "Невозможно завершить действие, так как нотификация, соответствующая ордеру, находится в некорректном статусе, или для данного типа ордера не предоставляется технического заключения";
+"action_not_possible_due_to_wrong_status" = "Невозможно завершить действие, так как нотификация находится в некорректном состоянии";
+"no_work_order_assigned" = "Невозможно совершить действие, так как у Вас нет назначенного ордера";
+"synching_spare_parts_reservation" = "Выполняется синхронизация запчастей, необходимо дождаться завершени процесса для создания резервирования";
+"synching_spare_parts_general" = "Выполняется синхронизация запчастей, необходимо дождаться завершения, прежде чем продолжить";
+"mobile_equipment" = "Для этого типа оборудования необходимо продолжить поток в исходной системе.";
+"attachments_upload_unavailable" = "Файлы не могут быть загружены из-за отсутствия соединения";
+"attachments_upload_failed" = "При загрузке файлов произошли следующие ошибки:";
+"attachments_size_exceeded" = "Файл превышает максимальный размер 10 МB.";
+"unavailable_attachment_size" = "Не удалось проверить размер вложенных файлов, попробуйте еще раз.";
+"offline_sync_error" = "Ошибка синхронизации с исходной системой на объекте. Проверьте объек, созданный, когда Вы были в офлайн-режиме";
+"complete_flow" = "Завершить текущую операцию";
+"attachments_conversion_data_failed" = "Невозможно воспроизвести содержимое файла";
+"attachments_temp_folder_write_failed" = "Ошибка при скачивании файла";
+"attachments_compression_failed" = "Не удалось сжать прикрепленные файлы, попробуйте еще раз";
+"connection_error_notification_creation" = "Из-за проблем с соеденением, нотификация НЕ была создана";
+
+// MARK: - Validation Error
+
+"invalid_regex" = "Правило проверки не может быть проверено";
+"required_error" = "Это значение обязательно";
+"missing_content" = "Введенное значение ничего не содержит %@";
+"missing_prefix" = "Введенное значение не содержит приставки %@";
+"missing_suffix" = "Введенное значение не содержит окончания %@";
+"only_numbers_error" = "Введенное значение должно содержать только цифры";
+"not_zero_error" = "Введенное значение должно быть больше 0";
+"max_characters_error" = "Перевышенно количество символов";
+"has_emoji_error" = "Введенное значение содержит недопустимые парамметры";
+"not_after_now" = "Неверная дата";
+"not_before_now" = "Incorrect date";
+"data_synchronization_message" = "Синхронизировать данные";
+
+// MARK: - Onboarding
+
+"retry_limit_reached_title" = "Превышено количество попыток";
+"retry_limit_reached_message" = "Превышено количество попыток. Приложение необходимо перезагрузить";
+"retry_button_title" = "Попробуйте еще раз";
+"reset_button_title" = "Сбросить";
+"login_failed_title" = "Ошибка авторизации";
+
+//MARK: - Alert Controller
+
+"error_title" = "Attention";
+"error_ok_button" = "ОК";
+"alert_controller_authorizations_go_to_settings" = "Вы отказали в доступе к этой функции. Чтобы его изменить, зайдите в настройки.";
+"alert_controller_go_to_settings_button" = "Перейти к настройкам";
+
+//MARK: - Loading indicator
+
+"loading_message" = "Выполняется загрузка вложений";
+
+//MARK: - Home Page
+
+"home_page_title" = "Стартовый экран";
+"home_page_action_report_a_failure" = "Управление нотификацией";
+"home_page_action_manage_MCTE" = "Техническое обслуживание";
+"home_page_action_documentation" = "Документация и Основные данные";
+
+//MARK: - Report a failure
+
+"report_a_failure_page_title" = "Notification Management";
+"report_a_failure_create_notification" = "Создать нотификацию";
+"report_a_failure_confirm_restart" = "Подтверждение запуска";
+"report_a_failure_notification_list" = "Список нотификаций";
+
+//MARK: - Equipment Details
+
+"equipment_details_page_title" = "Подробности оборудования";
+"equipment_details_title_equipment" = "Подробности оборудования*";
+"equipment_details_title_func_location" = "Локация";
+"equipment_details_title_inventory_number" = "Инвентарный номер";
+"equipment_details_confirm_button_title" = "Подтвердить";
+
+//MARK: - Notification Details
+
+"notification_details_page_title" = "Нотификация сохранена";
+"notification_details_title_notification_ID" = "Подробности нотификации";
+"notification_details_title_work_order_ID" = "Подробности";
+"notification_details_title_equipment" = "Equipment";
+"notification_details_title_func_location" = "Functional Location";
+"notification_details_title_inventory_number" = "Inventory number";
+"notification_details_title_short_text" = "Название нотификации";
+"notification_details_close_button_title" = "Закрыть";
+"notification_details_toast_message" = "Создана новая нотификация";
+"notification_details_toast_message_offline" = "Данные сохраняются локально";
+"notification_details_work_order_toast_message" = "Создана новая нотификация и ордер";
+
+// MARK: - Create Notification
+
+"create_notification_page_title" = "Создание нотификации";
+"create_notification_required_information" = "Требуемое поле";
+"create_notification_equipment_title" = "Equipment";
+"create_notification_type_title_mandatory" = "Тип нотификации*";
+"create_notification_type_title" = "Тип";
+"create_notification_coding_title_mandatory" = "Код";
+"create_notification_coding_title" = "Код";
+"create_notification_malfunction_start_date_mandatory" = "Начало простоя*";
+"create_notification_malfunction_start_date" = "Начало простоя";
+"create_notification_breakdown_title" = "Простой оборудования";
+"create_notification_reported_by_title_mandatory" = "Созданно*";
+"create_notification_reported_by_title" = "Созданно";
+"create_notification_short_text_placeholder_mandatory" = "Notification description*";
+"create_notification_short_text_placeholder" = "Notification description";
+"create_notification_effect_title_mandatory" = "Эффект*";
+"create_notification_effect_title" = "Эффект от поломки";
+"create_notification_main_work_center_title_mandatory" = "Рабочее место*";
+"create_notification_main_work_center_title" = "Рабочее место";
+"create_notification_priority_title_mandatory" = "Приоритет*";
+"create_notification_priority_title" = "Приоритет";
+"create_notification_maintenance_activity_type_title_mandatory" = "Тип деятельности*";
+"create_notification_maintenance_activity_type_title" = "Тип деятельности";
+"create_notification_long_text_placeholder_mandatory" = "Дополнительная информация*";
+"create_notification_long_text_placeholder" = "Дополнительная информация";
+"create_notification_footer_button_title" = "Сохранить";
+"create_notification_attachments_take_photo_action" = "Сделать фото";
+"create_notification_attachments_take_video_action" = "Сделать видео";
+"create_notification_attachments_import_photo_action" = "Библиотека изображений";
+"create_notification_attachments_import_file_action" = "Файл";
+"create_notification_attachments_title" = "Прикрепить файл";
+
+// MARK: - Coding View Cell
+
+"coding_table_view_cell_coding_title_mandatory" = "Coding*";
+"coding_table_view_cell_coding_title" = "Coding";
+"coding_table_view_cell_code_group_title" = "Группа кодов";
+"coding_table_view_cell_code_title" = "Код";
+
+// MARK: - Picker Alert
+
+"picker_alert_menu_title" = "Выбрать тип ордера";
+
+// MARK: - Create Notification Alert Controller
+
+"create_notification_alert_controller_title" = "Вы хотите создать ордер?";
+"create_notification_alert_controller_left_button" = "Нет";
+"create_notification_alert_controller_right_button" = "Да";
+
+//MARK: - Select Equipment
+
+"select_equipment_page_title" = "Выбор оборудования";
+"select_equipment_table_section_header" = "Поиск оборудования";
+"select_equipment_search_bar_placeholder" = "Поиск оборудования";
+"select_equipment_table_filter_button" = "Filters";
+"select_equipment_table_scan_button" = "Штрих-код";
+"select_equipment_title_filter_cost_center" = "Поиск по МВЗ";
+"select_equipment_title_filter_functional_location" = "Поиск локации";
+"filter_feedback_title" = "Поиск по:";
+
+//MARK: - Filter Equipment
+
+"filter_equipment_view_title" = "Search Equipment";
+"filter_equipment_filter_form_keyname" = "Search for:";
+"filter_equipment_first_filter_value" = "Место возникновение затрат (МВЗ)";
+"filter_equipment_second_filter_value" = "Functional Location";
+"filter_equipment_reset_cell_text" = "Сбросить всё";
+"filter_equipment_search_filter_cost_center_title" = "Search Equipment";
+"filter_equipment_search_filter_functional_location_title" = "Search Equipment";
+"filter_equipment_footer_button_title" = "Confirm";
+
+//MARK: - Barcode Scan
+
+"barcode_scan_page_title" = "Barcode";
+"barcode_scan_close_button" = "Close";
+
+//MARK: - Search Filter
+
+"search_filter_search_placeholder" = "Поиск";
+"search_filter_search_page_title_cost_center" = "Поиск МВЗ";
+"search_filter_search_cost_center_count" = "Поиск места возникновения затрат (МВЗ)";
+"search_filter_search_cost_center_placeholder" = "Поиск места возникновения затрат (МВЗ)";
+"search_filter_search_page_title_functional_location" = "Поиск по локации";
+"search_filter_search_functional_location_count" = "Локации:";
+"search_filter_search_functional_location_placeholder" = "Поиск локации";
+"search_filter_search_page_title_notification_type" = "Поиск по типу нотификации";
+"search_filter_search_notification_type_count" = "Поиск типа нотификации";
+"search_filter_search_notification_type_placeholder" = "Поиск типа нотификации";
+"search_filter_search_page_title_effect" = "Поиск эффекта";
+"search_filter_search_effect_count" = "Возможные эффекты: %@";
+"search_filter_search_effect_placeholder" = "Поиск эффекта";
+"search_filter_search_page_title_work_center" = "Поиск рабочего места";
+"search_filter_search_work_center_count" = "Поиск рабочего места";
+"search_filter_search_work_center_placeholder" = "Поиск рабочего места";
+"search_filter_search_page_title_coding" = "Поиск кода";
+"search_filter_search_coding_count" = "Код";
+"search_filter_search_coding_placeholder" = "Search coding";
+"search_filter_search_page_title_maintenance_activity_type" = "Поиск по виду деятельности";
+"search_filter_search_main_act_type_count" = "Поиск типа деятельности";
+"search_filter_search_maintenance_activity_type_placeholder" = "Search activity type";
+"search_filter_search_page_title_equipment" = "Поиск оборудования";
+"search_filter_search_equipment_count" = "Оборудование (%@)";
+"search_filter_search_page_title_PMActType" = "Search activity type";
+"search_filter_search_PMActType_count" = "Тип деятельности (%@)";
+"search_filter_search_PMActType_placeholder" = "Search activity type";
+"search_filter_search_page_title_craftsman" = "Поиск технического специалиста";
+"search_filter_search_craftsman_count" = "Технический специалист (%@)";
+"search_filter_search_craftsman_placeholder" = "Search Craftsman";
+"search_filter_search_page_title_spare_part" = "Поиск материала";
+"search_filter_search_spare_part_placeholder" = "Search spare parts";
+"search_filter_search_spare_part_count" = "Поиск запчасти (%@)";
+"search_filter_search_page_title_work_order" = "Поиск ордера";
+"search_filter_search_work_order_placeholder" = "Search Work Order";
+"search_filter_search_work_order_count" = "Ордер";
+"search_filter_search_page_title_workorder_type" = "Поиск по типу ордера";
+"search_filter_search_workorder_type_count" = "Поиск по типу ордера";
+"search_filter_search_workorder_type_placeholder" = "Search WO type";
+"search_filter_search_page_title_org_struct" = "Поиск по пользователю";
+"search_filter_search_org_struct_count" = "Поиск пользователей:";
+"search_filter_search_org_struct_placeholder" = "Поиск пользователя";
+"search_filter_search_page_title_code_group" = "Поиск группы кодов";
+"search_filter_search_code_group_count" = "Поиск группы кодов";
+"search_filter_search_code_group_placeholder" = "Поиск группы кодов";
+"search_filter_search_page_title_code" = "Поиск кода";
+"search_filter_search_code_count" = "Код";
+"search_filter_search_code_placeholder" = "Поиск кода";
+"search_filter_search_page_title_damage" = "Поиск повреждения";
+"search_filter_search_damage_count" = "Поиск повреждения:";
+"search_filter_search_damage_placeholder" = "Поиск повреждения";
+"search_filter_search_page_title_cause" = "Поиск причин";
+"search_filter_search_cause_count" = "Поиск причин";
+"search_filter_search_cause_placeholder" = "Поиск причины";
+"search_filter_search_page_title_maintainability" = "Ремонтнопригодность";
+"search_filter_search_maintainability_count" = "Обоснование*";
+"search_filter_search_maintainability_placeholder" = "Поиск обоснования";
+"search_filter_search_page_title_damage_group" = "Search Failure Mode";
+"search_filter_search_damage_group_count" = "Failure Modes found: %@";
+"search_filter_search_damage_group_placeholder" = "Failure mode search";
+"search_filter_search_page_title_cause_group" = "Search cause";
+"search_filter_search_cause_group_count" = "Causes found: %@";
+"search_filter_search_cause_group_placeholder" = "Search cause";
+"search_filter_search_page_title_activity_group" = "Поиск действий";
+"search_filter_search_activity_group_count" = "Поиск действий";
+"search_filter_search_activity_group_placeholder" = "Поиск действий";
+"search_filter_search_page_title_activity" = "Search activity";
+"search_filter_search_activity_count" = "Found activities %@";
+"search_filter_search_activity_placeholder" = "Activity search";
+"search_filter_search_page_title_delivery_place" = "Поставка*";
+"search_filter_search_delivery_place_placeholder" = "Поиск поставки";
+"search_filter_search_delivery_place_count" = "Поиск поставки";
+"search_filter_search_page_title_feedback" = "Поиск результата";
+"search_filter_search_feedback_count" = "Возможные результаты:";
+"search_filter_search_feedback_placeholder" = "Search result";
+
+//MARK: - Work Order Creation
+
+"work_order_creation_sap_notification" = "SAP нотификация";
+"work_order_creation_sap_notification_detail_equipment_title" = "Equipment";
+"work_order_creation_sap_notification_detail_priority_title" = "Priority";
+"work_order_creation_sap_notification_detail_reported_by_title" = "Reported by";
+"work_order_creation_sap_notification_detail_header_title" = "Подробности";
+"work_order_creation_new_notification" = "Новый ордер";
+"work_order_creation_assigned_notification" = "Нотификация назначена";
+"work_order_creation_assigned_work_order" = "Подробности назначенного ордера";
+"work_order_creation_push_info_management_page_title" = "Управление Push информацией";
+"work_order_creation_push_info_management_button_title_new" = "Создать ордер и назначить его себе";
+"work_order_creation_push_info_management_button_title_assigned" = "Создание ордера";
+"work_order_creation_page_title" = "Основные данные";
+"work_order_creation_equipment" = "Equipment";
+"work_order_creation_equipment_mandatory" = "Equipment*";
+"work_order_creation_functional_location" = "Functional Location";
+"work_order_creation_functional_location_mandatory" = "Functional Location*";
+"work_order_creation_inventory_number" = "Inventory number";
+"work_order_creation_inventory_number_mandatory" = "Inventory number*";
+"work_order_creation_notification_type" = "Тип нотификации";
+"work_order_creation_notification_type_mandatory" = "Notification Type*";
+"work_order_creation_type" = "Тип ордера";
+"work_order_creation_type_mandatory" = "WO Type*";
+"work_order_creation_short_text_placeholder" = "Notification description";
+"work_order_creation_short_text_placeholder_mandatory" = "Notification description*";
+"work_order_creation_required_restart" = "Malfunction Start";
+"work_order_creation_required_restart_mandatory" = "Malfunction Start*";
+"work_order_creation_reportedby" = "Reported by";
+"work_order_creation_reportedby_mandatory" = "Reported by*";
+"work_order_creation_priority" = "Priority";
+"work_order_creation_priority_mandatory" = "Priority*";
+"work_order_creation_long_text_placeholder" = "Additional Notes";
+"work_order_creation_long_text_placeholder_mandatory" = "Additional Notes*";
+"work_order_creation_pmact_type" = "Activity Type";
+"work_order_creation_pmact_type_mandatory" = "Activity Type*";
+"work_order_creation_attachments" = "Прикрепить файл";
+"work_order_creation_required_information" = "* Required field";
+"work_order_creation_footer_button_title" = "Save";
+
+// MARK: - Push Info Item
+
+"push_info_item_assigned_notification" = "Нотификация назначена";
+"push_info_item_new_notification" = "Новая нотификация";
+"push_info_item_assigned_work_order" = "Ордер назначен";
+"push_info_item_confirm_restart" = "Restart confirmation";
+"push_info_item_confirm_restart_body" = "Нотификация была обработана технической службой. После подтверждения этого сообщения выполненный ремонт утверждается и нотификация закрывается.";
+
+//MARK: - Change Equipment
+
+"change_equipment_page_title" = "Изменить оборудование";
+"change_equipment_equipment" = "Старое оборудование*";
+"change_equipment_new_equipment" = "Equipment";
+"change_equipment_placeholder_search" = "Search equipment";
+"change_equipment_required_information" = "* Required field";
+
+//MARK: - Change Notification Type
+
+"change_notification_type_page_title" = "Тип ордера";
+"change_notification_type_field_notification_type" = "Notification Type*";
+"change_notification_type_field_new_notification_type" = "Новый тип нотификации*";
+"change_notification_type_field_new_workorder_type" = "Новый тип ордера";
+"change_notification_type_placeholder_search" = "Search Notification type";
+"change_notification_type_required_information" = "* Required field";
+
+//MARK: - Work Order Details
+
+"work_order_details_page_title" = "Подробности ордера";
+"work_order_details_work_order_id" = "Work Order";
+"work_order_details_equipment" = "Equipment";
+"work_order_details_functional_location" = "Functional Location";
+"work_order_details_inventory" = "Inventory number";
+"work_order_details_button_close" = "Homepage";
+"work_order_details_toast_message" = "Ордер создан";
+"work_order_details_toast_message_offline" = "Data saved locally";
+
+//MARK: - Notification List
+
+"notification_list_page_title" = "Список нотификаций";
+"notification_list_page_title_confirm_restart" = "Запросы на подтверждение";
+"notification_list_table_section_header" = "Нотификации (%@)";
+"notification_list_table_filter_button" = "Расширенный поиск";
+"notification_list_search_bar_placeholder" = "Поиск нотификаций";
+"notification_list_notification_field" = "Notification";
+"notification_list_short_text_field" = "Short text";
+"notification_list_type_field" = "Notification Type";
+"notification_list_work_order_field" = "Work Order";
+"notification_list_equipment_field" = "Equipment";
+"notification_list_func_location_field" = "Functional Location";
+"notification_list_notification_type_filter_title" = "Тип:";
+"notification_list_equipment_filter_title" = "Оборудование:";
+"notification_list_status_filter_title" = "Статус:";
+"notification_list_work_order_type_filter_title" = "Ордер:";
+"notification_list_functional_location_filter_title" = "Локация:";
+"notification_list_assigned_to_me_filter_title" = "Назначена мне";
+"notification_list_search_for_label" = "Поиск";
+"notification_list_reported_by" = "Reported by";
+"notification_list_creation_date_hour" = "Creation Date";
+"notification_list_workcenter" = "Workcenter";
+"notification_list_toast_message_offline" = "Данные не могут быть обновлены";
+
+//MARK: - Notification List Detail
+
+"notification_list_detail_page_title" = "Открыть подробности нотификации";
+
+//MARK: - Notification Cell
+
+"notification_cell_new_status" = "Новая";
+"notification_cell_assigned_status" = "Назначена";
+
+//MARK: - Filter Notification
+
+"filter_notification_right_button_title" = "End";
+"filter_notification_view_title" = "Поиск нотификаций";
+"filter_notification_notification_type_filter_value" = "Notification Type";
+"filter_notification_equipment_filter_value" = "Equipment";
+"filter_notification_status_filter_value" = "Статус";
+"filter_notification_work_order_type_filter_value" = "WO Type";
+"filter_notification_functional_location_filter_value" = "Functional Location";
+"filter_notification_work_order_assigned_filter_value" = "Assigned to me";
+"filter_notification_selected_text" = "Выбранно";
+
+// MARK: - Manage MTCE
+
+"manage_mtce_view_title" = "Стартовый экран - Техническое обслуживание";
+"manage_mtce_reservation" = "Управление резервированием";
+"manage_mtce_time_declaration" = "Новое назначение";
+"manage_mtce_tech_summary" = "Техническое заключение";
+"manage_mtce_forward" = "Переслать";
+"manage_mtce_document_list" = "Список действий";
+
+//MARK: - Push Info Management RMT Alert Controller
+
+"push_info_management_rmt_alert_controller_title" = "Вы хотите отклонить нотификацию?";
+"push_info_management_rmt_alert_controller_left_button" = "No";
+"push_info_management_rmt_alert_controller_right_button" = "Yes";
+
+//MARK: - Push Info Work Order Management
+
+"push_info_work_order_management_assign_page_title" = "Управление ордером";
+"push_info_work_order_management_assign_sap_notification" = "SAP Notification";
+"push_info_work_order_management_assign_work_order" = "Work Order";
+"push_info_work_order_management_footer_button_title" = "Confirm";
+"push_info_work_order_management_detail_equipment_title" = "Equipment";
+"push_info_work_order_management_detail_text_title" = "Short text";
+"push_info_work_order_management_detail_reported_by_title" = "Reported by";
+"push_info_work_order_management_detail_functional_location_title" = "Functional Location";
+"push_info_work_order_management_detail_header_title" = "Details";
+"push_info_work_order_management_description" = "Новое задание в вашем списке задач";
+
+// MARK: - Forward Work Order
+
+"forward_work_order_page_title" = "Переслять другому рабочему месту";
+"forward_work_order_work_order" = "Maintenance order*";
+"forward_work_order_work_center" = "Workshop*";
+"forward_work_order_footer_button_title" = "Request support";
+"forward_work_order_all_items" = "Все (%@)";
+"forward_work_order_search_work_center_placeholder" = "Search Competent Workshop";
+"forward_work_order_search_filter_search_placeholder" = "Search Maintenance Order";
+"forward_work_order_confirm_toast_message" = "Ордер перенаправлен";
+"forward_work_order_select_work_order_page_title" = "Select Maintenance Order";
+"forward_work_order_assign_cell_title" = "Order";
+
+// MARK: - Notification Status
+
+"notification_new_status" = "NEW";
+"notification_assigned_status" = "ASSIGNED";
+"notification_reject_status" = "ОТКЛОНЕННО";
+"notification_closed_status" = "ЗАКРЫТО";
+"notification_filed_status" = "Подтвержден запуск";
+"notification_dummy_status" = "DEMO";
+"notification_status_assigned_to_me" = "назначно мне";
+
+// MARK: - Work Order Status
+
+"work_order_assigned_to_me_status" = "Назначен мне";
+"work_order_not_assigned_to_me_status" = "НЕ НАЗНАЧЕНО МНЕ";
+
+// MARK: - Select Notification Status
+
+"select_notification_status_page_title" = "Выбрать статус";
+"select_notification_status_table_section_header" = "Все статусы (%@)";
+"select_notification_status_section_header_selected" = "Selected (%@)";
+"select_notification_status_footer_button_title" = "Подтвердить";
+
+// MARK: - Select Multiple Notification Type
+
+"select_multiple_notification_type_page_title" = "Выбрать тип нотификации";
+"select_multiple_notification_type_table_section_header" = "Все типы нотификаций (%@)";
+"select_multiple_notification_type_section_header_selected" = "Selected (%@)";
+"select_multiple_notification_type_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Equipment
+
+"select_multiple_equipment_page_title" = "Выбрать оборудование";
+"select_multiple_equipment_table_section_header" = "Все типы оборудования (%@)";
+"select_multiple_equipment_section_header_selected" = "Selected (%@)";
+"select_multiple_equipment_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Work Order Type
+
+"select_multiple_work_order_type_page_title" = "Выбрать тип ордера";
+"select_multiple_work_order_type_table_section_header" = "Все тип ордеров (%@)";
+"select_multiple_work_order_type_section_header_selected" = "Selected (%@)";
+"select_multiple_work_order_type_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Select Multiple Functional Location
+
+"select_multiple_functional_location_page_title" = "Выбрать локацию";
+"select_multiple_functional_location_table_section_header" = "Все локации (%@)";
+"select_multiple_functional_location_section_header_selected" = "Selected (%@)";
+"select_multiple_functional_location_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Multiple Selection
+
+"multiple_selection_footer_button_title" = "Подтвердить";
+"select_notification_status_section_header_selected" = "Selected (%@)";
+"select_notification_status_section_header" = "All (%@)";
+
+// MARK: - Barcode Filter Button View
+
+"barcode_filter_button_view_barcode_button_title" = "Barcode";
+"barcode_filter_button_view_filter_button_title" = "Filters";
+
+// MARK: - Create Reservation
+
+"create_reservation_page_title" = "Создание резерва";
+"create_reservation_movement_type_title" = "Тип движения*";
+"create_reservation_sap_work_order_title" = "Ордер*";
+"create_reservation_cost_center_title" = "Cost center";
+"create_reservation_footer_button_title" = "Выбрать материал";
+"create_reservation_discharge_point_title" = "Delivery point";
+"create_reservation_discharge_point_title_mandatory" = "Delivery point*";
+"create_reservation_date_of_need" = "Необходимая дата";
+"create_reservation_express_check" = "Экспресс проверка резервирования";
+
+// MARK: - Select Movement Type
+
+"select_movement_type_page_title" = "Тип движения";
+"select_movement_type_table_section_header_view_item" = "Элементы (%@)";
+
+// MARK: - Reservation Details
+
+"reservation_details_page_title" = "Подробности резервирования";
+"reservation_details_sap_reservation_title" = "Подробности SAP резервирования";
+"reservation_details_footer_button_title" = "Close";
+"reservation_details_toast_message" = "Созданно новое резервирование";
+
+// MARK: - Reservation Items
+
+"reservation_items_page_title" = "Позиции резервирования";
+"reservation_items_add_button_title" = "Добавить позицию";
+"reservation_items_delete_button_title" = "Удалить позицию";
+"reservation_items_edit_button_title" = "Change item";
+"reservation_items_table_section_header_view_item" = "Позиции";
+"reservation_items_footer_button_title" = "Сохранить и распечатать";
+"reservation_items_title_items" = "Позиция";
+"reservation_items_items_deleted_toast_message" = "Удаленные позиции";
+"reservation_items_spare_part_title" = "Резервирование запчастей";
+"reservation_items_text_title" = "Описание";
+"reservation_items_quantity_title" = "Количество";
+"reservation_items_unrestricted_title" = "Свободное использование";
+"reservation_items_quality_title" = "Качество";
+"reservation_items_wh_title" = "Технический склад";
+"reservation_items_unit_title" = "Название единицы";
+"reservation_items_plant_title" = "Завод";
+
+// MARK: - Add Reservation Item
+
+"add_reservation_item_right_button_title" = "End";
+"add_reservation_item_page_title" = "Add item";
+"add_reservation_spare_part_title" = "Spare part*";
+"add_reservation_bom_title" = "Спецификация";
+"add_reservation_text_title" = "Description";
+"add_reservation_quantity_title" = "Quantity*";
+"add_reservation_unrestricted_title" = "Free use";
+"add_reservation_quality_title" = "Quality";
+"add_reservation_wh_title" = "Warehouse";
+"add_reservation_unit_title" = "Unit";
+"add_reservation_plant_title" = "Plant";
+"add_reservation_longtext_title" = "Long Description";
+"add_reservation_bom_quantity_title" = "Installed BOM";
+"add_reservation_id_manufacturer_title" = "Manufacturer";
+"add_reservation_note1_title" = "POTX1";
+"add_reservation_note2_title" = "POTX2";
+"add_reservation_quantity_reserved_title" = "Quantity Reserved";
+
+//MARK: - Confirm Machine Restart
+
+"confirm_machine_restart_page_title" = "Подтвердить запуск машины";
+"confirm_machine_restart_detail_work_order_type_title" = "WO Type";
+"confirm_machine_restart_detail_equipment_title" = "Equipment";
+"confirm_machine_restart_detail_functional_location_title" = "Functional Location";
+"confirm_machine_restart_detail_reported_by_title" = "Reported by";
+"confirm_machine_restart_detail_notification_title" = "Notification";
+"confirm_machine_restart_detail_notification_date_title" = "Дата рестарта";
+"confirm_machine_restart_header_title" = "Work Order";
+"confirm_machine_restart_description" = "The Notification was processed by maintenance. With confirmation of this message, the performed repair is confirmed and the notification is completed";
+"confirm_machine_restart_footer_button_title" = "Restart confirmation";
+
+//MARK: - Confirm Date and Hour
+
+"confirm_date_and_hour_page_title" = "Подтвердить дату и время";
+"confirm_date_and_hour_date_picker_title" = "Подтверждение запуска оборудования";
+"confirm_date_and_hour_toast_message_offline" = "Data saved locally";
+"confirm_date_and_hour_toast_message" = "Запуск подтвержден";
+
+//MARK: - Confirm Working Start
+
+"confirm_working_start_page_title" = "Ежедневный список ордеров";
+"confirm_working_start_cell_work_order_title" = "Ордер / операция";
+"confirm_working_start_cell_equipment_title" = "Equipment";
+"confirm_working_start_cell_reservation_tag" = "Резервирование";
+"confirm_working_start_table_header_title" = "Все %@";
+"confirm_working_start_table_header_title_selected" = "Выбрано (%@)";
+"confirm_working_start_footer_button_title" = "Начало";
+
+// MARK: - Time Declaration
+
+"time_declaration_page_title" = "Декларация времени";
+"time_declaration_stop_button_title" = "Окончание";
+"time_declaration_break_button_title" = "Перерыв";
+"time_declaration_work_order_title" = "SAP ордер";
+"time_declaration_operation_title" = "Операция";
+"time_declaration_start_table_header_title" = "Ордеры (%@)";
+"time_declaration_stop_success_toast_message" = "Статус ордера остановлен";
+"time_declaration_break_success_toast_message" = "Статус ордера приостановлен";
+
+// MARK: - Notification Management
+
+"notification_management_page_title" = "Назначение нотификации";
+"notification_management_assign_to_title" = "Назначить исполнителя";
+"notification_management_reject_button_title" = "Отклонить";
+"notification_management_assign_to_me_button_title" = "Назначить себе";
+"notification_management_show_work_order_button_title" = "Show info WO";
+"notification_management_assign_to_me_and_create_work_order_button_title" = "Создать ордер и назначить его себе";
+"notification_management_create_wo_button_title" = "Создание ордера";
+"notification_management_confirm_button_title" = "Подтвердить назначение";
+"notification_management_toast_message_rejected" = "Нотификация отклонена";
+"notification_management_toast_message_assigned" = "Назначение выполнено успешно";
+
+// MARK: - Work Order Management
+
+"work_order_management_page_title" = "Управление ордером";
+"work_order_management_page_title_show" = "WO Management";
+"work_order_management_sap_work_order" = "WO";
+"work_order_management_equipment" = "Equipment";
+"work_order_management_functional_location" = "Functional Location";
+"work_order_management_inventory_number" = "Inventory number";
+"work_order_management_cost_center" = "Cost center";
+"work_order_management_notification_type" = "Notification Type";
+"work_order_management_type" = "WO Type";
+"work_order_management_short_text_placeholder" = "Short text";
+"work_order_management_malfunction_start" = "Malfunction Start";
+"work_order_management_reportedby" = "Reported by";
+"work_order_management_notification_attachments" = "Вложенные файлы";
+"work_order_management_priority" = "Priority";
+"work_order_management_long_text_placeholder" = "Additional Notes";
+"work_order_management_pmact_type" = "Activity Type ";
+"work_order_management_attachments" = "Текущие вложения";
+"work_order_management_assigned_button_title" = "Close";
+"work_order_management_not_assigned_button_title" = "";
+"work_order_management_operation" = "Операции";
+"work_order_management_reservation" = "Резервирование";
+"work_order_management_object_list" = "Объекты";
+
+// MARK: - Documentation Master Data
+
+"documentation_master_data_page_title" = "Документация/ Основные данные";
+"documentation_master_data_search_equipment" = "Search equipment";
+"documentation_master_data_search_material" = "Поиск матриала";
+"documentation_master_data_search_functional_location" = "Search Functional Location";
+"documentation_master_data_view_documentation_master_data" = "Смотри документацию";
+"documentation_master_data_link_column_header" = "Ссылка";
+"documentation_master_data_document_type_column_header" = "Тип документа";
+"documentation_master_data_document_column_header_spare_parts" = "Номер материала";
+"documentation_master_data_document_column_header_equipment" = "Номер оборудования";
+"documentation_master_data_version_column_header" = "Версия";
+"documentation_master_data_description_column_header" = "Description";
+"documentation_master_data_material_column_header" = "Материал";
+"documentation_master_data_description_column_header" = "Description";
+"documentation_master_data_quantity_column_header" = "Quantity";
+"documentation_master_data_unit_column_header" = "Unity";
+"documentation_master_data_long_text_column_header" = "Подробный текст";
+"documentation_master_data_link_text" = "Открыть";
+
+// MARK: - Equipment Documentation
+
+"equipment_documentation_page_title" = "Данные оборудования";
+"equipment_documentation_documentation_section_header" = "Основные данные оборудования";
+"equipment_documentation_bom_section_header" = "Спецификация";
+"equipment_documentation_manufacturer_data_section_header" = "Данные производителя";
+"equipment_documentation_position_data_section_header" = "Данные о местоположении";
+"equipment_documentation_manufacturer" = "Производитель";
+"equipment_documentation_manufacturer_model" = "Номер модели производителя";
+"equipment_documentation_year_of_construction" = "Год изготовления";
+"equipment_documentation_serial_number" = "Серийный номер";
+"equipment_documentation_plant" = "Завод";
+"equipment_documentation_plant_section" = "Заводской сектор";
+
+// MARK: - Documentation
+
+"documentation_page_title" = "Documentation";
+"no_associated_documents" = "не содержит документов";
+
+// MARK: - Work Order Operations
+
+"work_order_operations_page_title" = "Operations";
+"work_order_operations_operation_number" = "Номер операции:";
+"work_order_operations_operation_work_center" = "Рабочее место:";
+"work_order_operations_operation_long_text" = "Полное описание:";
+"work_order_operations_operation_long_text_2" = "Подробный текст:";
+"work_order_operations_operation_status" = "Состояние машины:";
+
+// MARK: - Work Order Reservations
+
+"work_order_reservations_page_title" = "Reservations";
+"work_order_reservations_component" = "Материал:";
+"work_order_reservations_material_description" = "Название материала";
+"work_order_reservations_quantity" = "Количество:";
+"work_order_reservations_unit_of_measure" = "Единица измерения:";
+"work_order_reservations_reservation_per_request" = "Резервирование";
+"work_order_reservations_reservation" = "Резервирование на ордер:";
+"work_order_reservations_reservation_item" = "Позиция резервирования:";
+
+//MARK: - Technical Summary
+
+"technical_summary_page_title" = "Техническое заключение";
+"technical_summary_footer_button_title" = "Сохранить и закрыть";
+"technical_summary_work_order_mandatory" = "Work Order*";
+"technical_summary_work_order" = "Work Order";
+"technical_summary_work_order_type" = "WO Type";
+"technical_summary_operation_mandatory" = "Операция*";
+"technical_summary_operation" = "Операция";
+"technical_summary_notification_mandatory" = "Notification*";
+"technical_summary_notification" = "Notification";
+"technical_summary_required_end_mandatory" = "Окончание ремонта*";
+"technical_summary_required_end" = "Окончание ремонта";
+"technical_summary_equipment_affected_mandatory" = "Пострадавшее оборудование*";
+"technical_summary_equipment_affected" = "Пострадавшее оборудование";
+"technical_summary_long_text_placeholder" = "Additional Notes";
+"technical_summary_breakdown" = "Breakdown";
+"technical_summary_effect" = "Effect";
+"technical_summary_reported_by" = "Reported by";
+"technical_summary_damage_mandatory" = "Повреждение*";
+"technical_summary_damage" = "Повреждение";
+"technical_summary_damage_description_placeholder" = "Описание повреждения*";
+"technical_summary_damage_description_placeholder_mandatory" = "Введите описание причины*";
+"technical_summary_cause_mandatory" = "Причина поломки*";
+"technical_summary_cause" = "Причина поломки";
+"technical_summary_cause_description_placeholder" = "Описание причины*";
+"technical_summary_cause_description_placeholder_mandatory" = "Enter cause description*";
+"technical_summary_maintainability_mandatory" = "Maintainability*";
+"technical_summary_maintainability" = "Обоснование";
+"technical_summary_activities_mandatory" = "Activity*";
+"technical_summary_activities" = "Техническое заключение";
+"technical_summary_toast_message_offline" = "Data saved locally. %@";
+"technical_summary_toast_message" = "Техническое заключение создано. %@";
+"technical_summary_activities_selected" = "Операции";
+"technical_summary_operation_feedback" = "Результат операций";
+"technical_summary_no_operation_feedback" = "Нет позиций";
+"technical_summary_operation_feedback_value" = "%@ elements";
+"technical_summary_assign_new_order" = "Assigned to another order";
+
+//MARK: - Select Equipment Affected
+
+"select_equipment_affected_page_title" = "Equipment Affected";
+"select_equipment_affected_search_placeholder" = "Search equipment";
+"select_equipment_affected_equipment_found" = ": %@";
+
+// MARK: - My Work List
+
+"my_work_list_page_title" = "Activity list ";
+"my_work_list_search_placeholder" = "Поиск нотификации";
+"my_work_list_operation_field" = "Operation";
+"my_work_list_priority_field" = "Priority";
+"my_work_list_work_order_type" = "WO Type";
+
+// MARK: - Select Equipment Or SpareParts
+
+"select_equipment_or_spareparts_page_title" = "Добавить спецификацию";
+"select_equipment_or_spareparts_header_equipment" = "Выбранное оборудование:";
+"select_equipment_or_spareparts_spareparts_found" = "Поиск запчастей:";
+"select_equipment_or_spareparts_equipment_found" = "Equipment found: %@";
+"select_equipment_or_spareparts_search_placeholder" = "Поиск оборудования/ запчастей";
+
+// MARK: - Log Out Alert View
+
+"log_out_alert_view_title" = "Уверены, что хотите выйти из приложения?";
+"log_out_alert_view_left_button" = "No";
+"log_out_alert_view_right_button" = "Yes";
+
+// MARK: - ActivityItems
+
+"activity_items_page_title" = "Activity";
+"activity_items_add_button_title" = "Добавить активность";
+"activity_items_delete_button_title" = "Изменить действие";
+"activity_items_table_section_header_view_item" = "Техническое заключение";
+"activity_items_footer_button_title" = "Confirm";
+"activity_items_activity_cell_title" = "Activity";
+"activity_items_activity_cell_description" = "Нет описания";
+
+//MARK: - Add Activity Item
+
+"add_activity_item_page_title" = "Add activity";
+"add_activity_item_activity_title" = "Activity";
+"add_activity_item_activity_description_placeholder" = "Описание действий";
+
+//MARK: - Operation Feedback
+
+"operation_feedback_page_title" = " Operation's result";
+"operation_feedback_item_title" = "Operation";
+"operation_feedback_operation_title" = "Operation";
+"operation_feedback_status_title" = "Состояние машины";
+"operation_feedback_feedback_title" = " Operation's result";
+"operation_feedback_feedback_selected" = "%@ Выбраны";
+"operation_feedback_feedback_not_selected" = "Не выбран результат операции";
+
+// MARK: - Select Multiple Feedback
+
+"select_multiple_feedback_page_title" = "Выбрать результат операции";
+"select_multiple_feedback_table_section_header" = "Все результаты (%@)";
+"select_multiple_feedback_section_header_selected" = "Selected (%@)";
+"select_multiple_feedback_footer_button_title" = "Confirmation Selection";
+
+// MARK: - Operation Feedback Status
+
+"operation_feedback_status_out_of_order" = "Не в работе";
+"operation_feedback_status_running" = "В работе";
+
+// MARK: - Mobile Reservation Status
+
+"mobile_reservation_status_now" = "В данный момент";
+"mobile_reservation_status_never" = "Никогда";
+
+// MARK: - ShowAttachments
+
+"show_attachments_page_title" = "Вложенные файлы";
+"show_attachments_close_button_title" = "Close";
+"show_attachments_attachments_component" = "Attachments (%d)";
+"show_attachments_no_content_label" = "Нет доступной документации";
+
+// MARK: - Search Equipment Documentation
+
+"search_equipment_documentation_barcode_button_title" = "Поиск по штрих-коду";
+"search_equipment_documentation_confirm_button_title" = "Confirm";
+"search_equipment_documentation_page_title" = "Search equipment";
+"search_equipment_documentation_search_bar_placeholder_text" = "Поиск оборудования";
+
+// MARK: - Spare Part Details
+
+"spare_part_details_page_title" = "Название запчасти";
+"spare_part_details_confirm_button" = "Основные данные";
+"spare_part_details_spare_part_title" = "Spare part";
+"spare_part_details_material_type_title" = "Тип материала";
+
+// MARK: - Material Documentation
+
+"material_documentation_page_title" = "Данные материала";
+"material_documentation_documentation_section_header" = "Documentation";
+
+// MARK: - Object list
+
+"object_list_page_title" = "Objects";
+"object_list_equipment" = "Equipment:";
+"object_list_equipment_desc" = "Описание оборудования:";
+"object_list_functional_location" = "Functional Location:";
+"object_list_functional_location_desc" = "Название локации";
+"object_list_short_text" = "Название нотификации";
+"object_list_footer_button_title" = "Save";
+"object_list_save_not_availabe_offline" = "Saving not available offline";
+
+
+// MARK: - Assignment Detail
+
+"assignment_detail_page_title" = "Craftman detail";
+"assignment_detail_active_assignment" = "Current assignment";
+"assignment_detail_received_assignment" = "Received Assignment";
+"assignment_detail_button_confirm" = "Confirm assignment";
+"assignment_detail_assigned_by" = "Assigned by";
+"assignment_detail_date_and_hour" = "Date and hour";
+"assignment_detail_order_type" = "WO type";
